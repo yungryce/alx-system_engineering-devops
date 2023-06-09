@@ -1,2 +1,2 @@
 #!/bin/bash
-[ "$(id -u)" = "$(stat -c '%u' hello)" ] && chown betty hello
+if [ "$(id -u)" = "$(stat -c '%u' hello)" ]; then chown betty hello; fi
