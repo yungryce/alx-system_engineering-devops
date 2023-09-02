@@ -1,3 +1,2 @@
 #!/bin/bash
-if [ "$(id -u)" = "$(stat -c '%u' hello)" ] && { chown betty hello; } | grep -q ''; then true; fi
-
+chown --from=guillaume betty hello
