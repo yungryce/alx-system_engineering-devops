@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# FizzBuzz script that displays numbers from 1 to 100.
+
+i=1
+for i in {1..100}; do
+	if [ $((i % 15)) = 0 ]; then
+		echo FizzBuzz
+	elif [ $((i % 5)) = 0 ]; then
+		echo Buzz
+	elif [ $((i % 3)) = 0 ]; then
+		echo Fizz
+	else
+		echo "$i"
+	fi
+done
