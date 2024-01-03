@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# displays all active IPv4 IPs on the machine it is executed on
+
+ip -4 addr show | grep inet | awk '{print $2}' | cut -d'/' -f1
+# ipconfig | findstr IPv4 | awk '{print $NF}'
+# python -c "import socket; print([l[4][0] for l in
+#+ socket.getaddrinfo(socket.gethostname(), None) if ':' not in l[4][0]])"
+# ifconfig | grep -Eo "inet (addr:)?([0-9]*\.){3}[0-9]*" | cut -b 6-
