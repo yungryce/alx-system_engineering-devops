@@ -1,1 +1,2 @@
-ssh-keygen -b 4096 -f school -N betty
+ssh-keygen -b 4096 -f ~/.ssh/school -N betty
+
