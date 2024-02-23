@@ -1,2 +1,3 @@
 ssh-keygen -b 4096 -f ~/.ssh/school -N betty
-
+# ssh-keygen -t rsa -b 4096 -C "ubuntu@52.201.190.114" -f 
+# ~/.ssh/school -N "betty"
