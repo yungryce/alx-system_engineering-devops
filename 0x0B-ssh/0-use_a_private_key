@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 # SSH connection command
 
-ssh -i "~/.ssh/school" "ubuntu@52.201.190.114"
+ssh -i ~/.ssh/school ubuntu@52.201.190.114
+
