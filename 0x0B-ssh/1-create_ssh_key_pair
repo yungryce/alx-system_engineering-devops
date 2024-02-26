@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Connects to server 34.138.32.248 with key in ~/.ssh/school
 #ssh-keygen -t rsa -b 4096 -C "ubuntu@52.201.190.114" -f ~/.ssh/school -N "betty"
-
-ssh-keygen -b 4096 -f ~/.ssh/school -N betty
+#ssh-keygen -b 4096 -f ~/.ssh/school -N betty
+ssh-keygen -f school -b 4096 -N betty
 
