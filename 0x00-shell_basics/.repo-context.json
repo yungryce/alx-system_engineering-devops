@@ -1,0 +1,50 @@
+{
+  "contextType": "educational",
+  "contextName": "Shell Basics",
+  "contextDescription": "Introduction to Unix/Linux shell navigation, file manipulation, and basic shell commands for system administration",
+  "mainLanguage": "shell",
+  "supportLanguages": ["bash"],
+  "topics": [
+    "shell-navigation",
+    "file-manipulation",
+    "directory-management",
+    "file-system-operations",
+    "symbolic-links",
+    "file-types",
+    "directory-tree",
+    "magic-files"
+  ],
+  "skillLevel": "beginner",
+  "learningObjectives": [
+    "Navigate file systems using shell commands",
+    "Manipulate files and directories from the command line",
+    "Display file and directory information in various formats",
+    "Create and manage symbolic links",
+    "Identify file types using appropriate commands",
+    "Create and manage directory structures",
+    "Develop simple shell scripts for file operations"
+  ],
+  "prerequisites": [
+    "Basic terminal/command line knowledge",
+    "Linux/Unix operating system familiarity",
+    "Text editor proficiency (vi/vim/emacs)"
+  ],
+  "associatedProjects": {
+    "next": "0x01-shell_permissions",
+    "related": ["0x02-shell_redirections", "0x03-shell_variables_expansions"]
+  },
+  "resources": [
+    {
+      "name": "Linux Command Line Basics",
+      "url": "https://ubuntu.com/tutorials/command-line-for-beginners"
+    },
+    {
+      "name": "Bash Guide",
+      "url": "https://mywiki.wooledge.org/BashGuide"
+    },
+    {
+      "name": "ShellCheck",
+      "url": "https://www.shellcheck.net/"
+    }
+  ]
+}

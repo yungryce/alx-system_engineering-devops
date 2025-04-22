@@ -1,0 +1,68 @@
+{
+  "contextType": "educational",
+  "contextName": "Regular Expressions",
+  "contextDescription": "Introduction to regular expressions (regex) and their application in pattern matching, text processing, and data validation",
+  "mainLanguage": "ruby",
+  "supportLanguages": ["shell"],
+  "topics": [
+    "regular-expressions",
+    "pattern-matching",
+    "text-processing",
+    "string-manipulation",
+    "data-validation",
+    "regex-syntax",
+    "capture-groups",
+    "ruby-regex",
+    "quantifiers",
+    "character-classes"
+  ],
+  "skillLevel": "intermediate",
+  "learningObjectives": [
+    "Understand what regular expressions are and their purpose",
+    "Master basic and advanced regex syntax and patterns",
+    "Apply regular expressions to find and extract data from text",
+    "Implement regex using Ruby's scan method",
+    "Create patterns with character classes and quantifiers",
+    "Use anchors to match start and end positions in strings",
+    "Extract specific information using capture groups",
+    "Validate formats such as phone numbers and email addresses",
+    "Debug and test regular expressions",
+    "Optimize regex patterns for performance"
+  ],
+  "prerequisites": [
+    "Completion of 0x00-shell_basics module",
+    "Completion of 0x01-shell_permissions module",
+    "Completion of 0x02-shell_redirections module",
+    "Completion of 0x03-shell_variables_expansions module",
+    "Completion of 0x04-loops_conditions_and_parsing module",
+    "Completion of 0x05-processes_and_signals module",
+    "Basic understanding of Ruby syntax"
+  ],
+  "associatedProjects": {
+    "previous": "0x05-processes_and_signals",
+    "next": "0x07-networking_basics",
+    "related": ["0x08-networking_basics_2", "0x15-api", "0x16-api_advanced"]
+  },
+  "resources": [
+    {
+      "name": "Regular expressions - basics",
+      "url": "https://www.regular-expressions.info/tutorial.html"
+    },
+    {
+      "name": "Regular expressions - advanced",
+      "url": "https://www.regular-expressions.info/advanced.html"
+    },
+    {
+      "name": "Rubular: a Ruby regular expression editor",
+      "url": "https://rubular.com/"
+    },
+    {
+      "name": "Ruby Regexp Documentation",
+      "url": "https://ruby-doc.org/core/Regexp.html"
+    },
+    {
+      "name": "RegexOne - Learn Regular Expressions",
+      "url": "https://regexone.com/"
+    }
+  ]
+}

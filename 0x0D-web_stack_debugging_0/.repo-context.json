@@ -1,0 +1,77 @@
+{
+  "contextType": "educational",
+  "contextName": "Web Stack Debugging #0",
+  "contextDescription": "Introduction to debugging web stacks, focusing on troubleshooting Apache web server running in a Docker container",
+  "mainLanguage": "bash",
+  "supportLanguages": ["apache", "docker"],
+  "topics": [
+    "web-stack-debugging",
+    "apache",
+    "docker",
+    "containers",
+    "webserver-troubleshooting",
+    "devops",
+    "server-configuration",
+    "web-infrastructure",
+    "debugging-techniques",
+    "system-administration",
+    "bash-scripting",
+    "server-management",
+    "http-service",
+    "web-services",
+    "containerization"
+  ],
+  "skillLevel": "intermediate",
+  "learningObjectives": [
+    "Learn the fundamentals of debugging web server issues",
+    "Understand how to diagnose and fix Apache configuration problems",
+    "Work with Docker containers for web server deployment",
+    "Apply systematic debugging methodologies to web infrastructure",
+    "Write Bash scripts to automate server configuration fixes",
+    "Verify web server functionality using command line tools",
+    "Troubleshoot common web server startup issues",
+    "Understand Apache web server configuration basics",
+    "Learn Docker container debugging techniques",
+    "Develop technical documentation for debugging processes"
+  ],
+  "prerequisites": [
+    "Completion of 0x00-shell_basics module",
+    "Completion of 0x01-shell_permissions module",
+    "Completion of 0x02-shell_redirections module",
+    "Completion of 0x03-shell_variables_expansions module",
+    "Basic understanding of HTTP and web servers",
+    "Familiarity with Docker containers",
+    "Knowledge of Bash scripting"
+  ],
+  "associatedProjects": {
+    "previous": "0x0C-web_server",
+    "next": "0x0E-web_stack_debugging_1",
+    "related": ["0x0A-configuration_management", "0x0B-ssh", "0x0F-load_balancer"]
+  },
+  "resources": [
+    {
+      "name": "Docker Documentation",
+      "url": "https://docs.docker.com/"
+    },
+    {
+      "name": "Apache HTTP Server Documentation",
+      "url": "https://httpd.apache.org/docs/"
+    },
+    {
+      "name": "How to Debug Apache Server Issues",
+      "url": "https://www.digitalocean.com/community/tutorials/how-to-troubleshoot-common-apache-errors"
+    },
+    {
+      "name": "Debugging the Apache Web Server",
+      "url": "https://www.petefreitag.com/item/465.cfm"
+    },
+    {
+      "name": "Docker Debugging Techniques",
+      "url": "https://docs.docker.com/config/daemon/troubleshoot/"
+    },
+    {
+      "name": "Apache Configuration Tutorial",
+      "url": "https://httpd.apache.org/docs/2.4/configuring.html"
+    }
+  ]
+}

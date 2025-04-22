@@ -1,0 +1,69 @@
+{
+  "contextType": "educational",
+  "contextName": "Networking Basics",
+  "contextDescription": "Introduction to fundamental networking concepts including the OSI model, types of networks, IP addressing, and network protocols",
+  "mainLanguage": "shell",
+  "supportLanguages": ["bash"],
+  "topics": [
+    "osi-model",
+    "tcp-ip",
+    "ip-addressing",
+    "network-types",
+    "lan-wan-internet",
+    "mac-address",
+    "udp-tcp",
+    "ports-protocols",
+    "network-troubleshooting",
+    "network-diagnostics"
+  ],
+  "skillLevel": "intermediate",
+  "learningObjectives": [
+    "Understand the OSI model and its seven layers",
+    "Differentiate between LAN, WAN, and Internet network types",
+    "Work with MAC addresses and understand their purpose",
+    "Distinguish between TCP and UDP protocols",
+    "Identify key port numbers and their associated services",
+    "Use network diagnostic tools like ping and netstat",
+    "Comprehend IPv4 addressing and structure",
+    "Recognize the differences between private and public IP addresses",
+    "Monitor and analyze network traffic and connections",
+    "Troubleshoot basic network connectivity issues"
+  ],
+  "prerequisites": [
+    "Completion of 0x00-shell_basics module",
+    "Completion of 0x01-shell_permissions module",
+    "Completion of 0x02-shell_redirections module",
+    "Completion of 0x03-shell_variables_expansions module",
+    "Completion of 0x04-loops_conditions_and_parsing module",
+    "Completion of 0x05-processes_and_signals module",
+    "Completion of 0x06-regular_expressions module",
+    "Basic understanding of command line operations"
+  ],
+  "associatedProjects": {
+    "previous": "0x06-regular_expressions",
+    "next": "0x08-networking_basics_2",
+    "related": ["0x09-web_infrastructure_design", "0x0C-web_server"]
+  },
+  "resources": [
+    {
+      "name": "OSI Model",
+      "url": "https://en.wikipedia.org/wiki/OSI_model"
+    },
+    {
+      "name": "TCP/IP Model",
+      "url": "https://www.geeksforgeeks.org/tcp-ip-model/"
+    },
+    {
+      "name": "Introduction to IP Addressing",
+      "url": "https://www.cisco.com/c/en/us/support/docs/ip/routing-information-protocol-rip/13788-3.html"
+    },
+    {
+      "name": "Network Ports and Protocols",
+      "url": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers"
+    },
+    {
+      "name": "Network Diagnostic Tools",
+      "url": "https://www.networkworld.com/article/3242170/linux-networking-diagnostic-commands.html"
+    }
+  ]
+}

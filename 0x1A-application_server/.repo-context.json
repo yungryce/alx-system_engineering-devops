@@ -1,0 +1,68 @@
+{
+  "contextType": "educational",
+  "contextName": "Application Server",
+  "contextDescription": "Implementation of an application server setup using Gunicorn for dynamic content serving with Nginx as a reverse proxy",
+  "mainLanguage": "bash",
+  "supportLanguages": ["python", "nginx", "systemd"],
+  "topics": [
+    "application-server",
+    "web-server-configuration",
+    "gunicorn-deployment",
+    "nginx-reverse-proxy",
+    "systemd-services",
+    "zero-downtime-deployment",
+    "flask-application-hosting",
+    "wsgi-server",
+    "web-infrastructure",
+    "proxy-configuration"
+  ],
+  "skillLevel": "advanced",
+  "learningObjectives": [
+    "Understand the role of application servers in web architecture",
+    "Configure Nginx as a reverse proxy for application servers",
+    "Deploy Python Flask applications with Gunicorn",
+    "Create and manage systemd services for automatic application management",
+    "Implement zero-downtime deployment techniques",
+    "Configure multiple server blocks and routes in Nginx",
+    "Manage environment variables for application configuration",
+    "Understand the separation between web and application servers",
+    "Deploy full-stack web applications with proper architecture",
+    "Manage process monitoring and service reliability"
+  ],
+  "prerequisites": [
+    "Completion of 0x0C-web_server module",
+    "Completion of 0x0F-load_balancer module",
+    "Completion of 0x10-https_ssl module",
+    "Completion of 0x18-webstack_monitoring module",
+    "Knowledge of basic Python and Flask",
+    "Familiarity with Nginx configuration",
+    "Understanding of systemd service management"
+  ],
+  "associatedProjects": {
+    "previous": "0x18-webstack_monitoring",
+    "next": "0x1B-web_stack_debugging_4",
+    "related": ["0x0C-web_server", "0x0F-load_balancer", "0x10-https_ssl"]
+  },
+  "resources": [
+    {
+      "name": "Application Server vs Web Server",
+      "url": "https://www.nginx.com/resources/glossary/application-server-vs-web-server/"
+    },
+    {
+      "name": "How to use Nginx as a reverse proxy",
+      "url": "https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-server-blocks-virtual-hosts-on-ubuntu-16-04"
+    },
+    {
+      "name": "Gunicorn documentation",
+      "url": "https://docs.gunicorn.org/en/stable/"
+    },
+    {
+      "name": "Systemd service configuration",
+      "url": "https://www.freedesktop.org/software/systemd/man/systemd.service.html"
+    },
+    {
+      "name": "Flask deployment options",
+      "url": "https://flask.palletsprojects.com/en/2.0.x/deploying/"
+    }
+  ]
+}

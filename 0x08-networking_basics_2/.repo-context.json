@@ -1,0 +1,70 @@
+{
+  "contextType": "educational",
+  "contextName": "Networking Basics 2",
+  "contextDescription": "Advanced networking concepts focusing on localhost, IP addresses, host files, port listening, and network configuration in Unix/Linux systems",
+  "mainLanguage": "shell",
+  "supportLanguages": ["bash"],
+  "topics": [
+    "localhost",
+    "ip-addressing",
+    "host-configuration",
+    "network-interfaces",
+    "port-listening",
+    "DNS-resolution",
+    "hosts-file",
+    "network-configuration",
+    "netcat",
+    "localhost-forwarding"
+  ],
+  "skillLevel": "intermediate",
+  "learningObjectives": [
+    "Understand the concept of localhost and its addressing",
+    "Manage and modify host files for local DNS resolution",
+    "Configure IP addresses on network interfaces",
+    "Implement network port listening and connections",
+    "Identify different types of IP addresses (loopback, private, public)",
+    "Modify network configurations on Linux systems",
+    "Use netcat for basic network communication",
+    "Comprehend IP address types and their purposes",
+    "Configure and test local network connections",
+    "Implement basic network services"
+  ],
+  "prerequisites": [
+    "Completion of 0x00-shell_basics module",
+    "Completion of 0x01-shell_permissions module",
+    "Completion of 0x02-shell_redirections module",
+    "Completion of 0x03-shell_variables_expansions module",
+    "Completion of 0x04-loops_conditions_and_parsing module",
+    "Completion of 0x05-processes_and_signals module",
+    "Completion of 0x06-regular_expressions module",
+    "Completion of 0x07-networking_basics module",
+    "Basic understanding of IP addressing and networking concepts"
+  ],
+  "associatedProjects": {
+    "previous": "0x07-networking_basics",
+    "next": "0x09-web_infrastructure_design",
+    "related": ["0x0C-web_server", "0x0F-load_balancer", "0x13-firewall"]
+  },
+  "resources": [
+    {
+      "name": "What is localhost",
+      "url": "https://en.wikipedia.org/wiki/Localhost"
+    },
+    {
+      "name": "Understanding /etc/hosts",
+      "url": "https://tldp.org/LDP/solrhe/Securing-Optimizing-Linux-RH-Edition-v1.3/chap9sec95.html"
+    },
+    {
+      "name": "Netcat Command in Linux",
+      "url": "https://www.geeksforgeeks.org/netcat-command-in-linux-with-examples/"
+    },
+    {
+      "name": "IP Address Configuration in Linux",
+      "url": "https://linuxconfig.org/how-to-configure-static-ip-address-on-ubuntu-20-04-focal-fossa-linux"
+    },
+    {
+      "name": "Ifconfig Command in Linux",
+      "url": "https://www.tecmint.com/ifconfig-command-examples/"
+    }
+  ]
+}

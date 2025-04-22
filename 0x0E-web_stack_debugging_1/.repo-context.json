@@ -1,0 +1,79 @@
+{
+  "contextType": "educational",
+  "contextName": "Web Stack Debugging #1",
+  "contextDescription": "Troubleshooting and fixing Nginx port configuration issues in web servers, with emphasis on efficient debugging techniques and service management",
+  "mainLanguage": "shell",
+  "supportLanguages": ["nginx"],
+  "topics": [
+    "web-stack-debugging",
+    "nginx",
+    "port-configuration",
+    "symbolic-links",
+    "service-management",
+    "network-troubleshooting",
+    "system-administration",
+    "devops",
+    "server-configuration",
+    "debugging-techniques",
+    "process-management",
+    "port-binding"
+  ],
+  "skillLevel": "intermediate",
+  "learningObjectives": [
+    "Understand how to diagnose port binding issues in web servers",
+    "Learn to inspect and fix Nginx configuration problems",
+    "Master the use of symbolic links in server configurations",
+    "Apply systematic debugging approaches to network services",
+    "Identify incorrect server configuration files",
+    "Learn to manage and restart services properly",
+    "Understand how to verify server responses using curl",
+    "Develop skills in optimizing debugging solutions",
+    "Master process management techniques for service control",
+    "Understand the relationship between sites-available and sites-enabled in Nginx"
+  ],
+  "prerequisites": [
+    "Completion of 0x00-shell_basics module",
+    "Completion of 0x01-shell_permissions module",
+    "Completion of 0x02-shell_redirections module",
+    "Completion of 0x03-shell_variables_expansions module",
+    "Completion of 0x04-loops_conditions_and_parsing module",
+    "Completion of 0x05-processes_and_signals module",
+    "Completion of 0x09-web_infrastructure_design module",
+    "Completion of 0x0A-configuration_management module",
+    "Completion of 0x0B-ssh module",
+    "Completion of 0x0C-web_server module",
+    "Completion of 0x0D-web_stack_debugging_0 module",
+    "Familiarity with web servers (particularly Nginx)"
+  ],
+  "associatedProjects": {
+    "previous": "0x0D-web_stack_debugging_0",
+    "next": "0x0F-load_balancer",
+    "related": ["0x12-web_stack_debugging_2", "0x17-web_stack_debugging_3", "0x1B-web_stack_debugging_4"]
+  },
+  "resources": [
+    {
+      "name": "Nginx documentation",
+      "url": "https://nginx.org/en/docs/"
+    },
+    {
+      "name": "How to debug Nginx port binding issues",
+      "url": "https://www.digitalocean.com/community/tutorials/how-to-troubleshoot-common-nginx-errors"
+    },
+    {
+      "name": "Understanding Nginx configuration structure",
+      "url": "https://www.nginx.com/resources/wiki/start/topics/examples/full/"
+    },
+    {
+      "name": "Linux service management commands",
+      "url": "https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units"
+    },
+    {
+      "name": "Network debugging tools and techniques",
+      "url": "https://www.tecmint.com/linux-network-configuration-and-troubleshooting-commands/"
+    },
+    {
+      "name": "Curl documentation",
+      "url": "https://curl.se/docs/manpage.html"
+    }
+  ]
+}

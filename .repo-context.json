@@ -1,0 +1,145 @@
+{
+  "contextType": "educational",
+  "contextName": "System Engineering & DevOps",
+  "contextDescription": "Comprehensive curriculum covering shell scripting, system administration, networking, web infrastructure design, and DevOps practices for robust, scalable server environments",
+  "mainLanguage": "shell",
+  "supportLanguages": ["bash", "puppet", "python", "ruby"],
+  "topics": [
+    "shell-scripting",
+    "system-administration",
+    "networking",
+    "web-infrastructure",
+    "devops",
+    "security",
+    "monitoring",
+    "debugging",
+    "configuration-management",
+    "automation",
+    "server-deployment",
+    "load-balancing",
+    "mysql",
+    "apis",
+    "process-management",
+    "file-system",
+    "ssh"
+  ],
+  "skillLevel": "beginner-to-advanced",
+  "learningSequence": [
+    "shell-basics",
+    "shell-permissions",
+    "shell-redirections",
+    "shell-variables-expansions",
+    "loops-conditions-parsing",
+    "processes-signals",
+    "regular-expressions",
+    "networking-basics",
+    "web-infrastructure-design",
+    "configuration-management",
+    "ssh",
+    "web-server",
+    "web-stack-debugging",
+    "load-balancer",
+    "https-ssl",
+    "firewall",
+    "mysql",
+    "api",
+    "webstack-monitoring",
+    "application-server"
+  ],
+  "projectStructure": {
+    "shellFundamentals": [
+      "0x00-shell_basics",
+      "0x01-shell_permissions",
+      "0x02-shell_redirections",
+      "0x03-shell_variables_expansions"
+    ],
+    "scriptingAndProcesses": [
+      "0x04-loops_conditions_and_parsing",
+      "0x05-processes_and_signals",
+      "0x06-regular_expressions"
+    ],
+    "networking": [
+      "0x07-networking_basics",
+      "0x08-networking_basics_2"
+    ],
+    "webInfrastructure": [
+      "0x09-web_infrastructure_design",
+      "0x0C-web_server",
+      "0x0F-load_balancer",
+      "0x10-https_ssl",
+      "0x1A-application_server"
+    ],
+    "systemAdministration": [
+      "0x0B-ssh",
+      "0x13-firewall",
+      "0x14-mysql",
+      "0x15-api",
+      "0x16-api_advanced"
+    ],
+    "configurationManagement": [
+      "0x0A-configuration_management",
+      "0x18-webstack_monitoring"
+    ],
+    "debugging": [
+      "0x0D-web_stack_debugging_0",
+      "0x0E-web_stack_debugging_1",
+      "0x12-web_stack_debugging_2",
+      "0x17-web_stack_debugging_3",
+      "0x1B-web_stack_debugging_4"
+    ],
+    "security": [
+      "attack_is_the_best_defense"
+    ]
+  },
+  "outcomes": {
+    "technicalSkills": [
+      "Shell scripting proficiency",
+      "System administration capabilities",
+      "Networking configuration expertise",
+      "Web infrastructure design and implementation",
+      "Security implementation and hardening",
+      "Monitoring and observability practices",
+      "Debugging and troubleshooting methodologies",
+      "Automation and configuration management",
+      "Service deployment and management",
+      "High availability implementation",
+      "Database management"
+    ],
+    "softSkills": [
+      "Analytical thinking",
+      "Problem-solving",
+      "Technical documentation",
+      "Attention to detail",
+      "System architecture planning",
+      "Resilient design principles",
+      "Continuous learning approach",
+      "Research and investigation techniques"
+    ]
+  },
+  "resources": [
+    {
+      "name": "Bash Manual",
+      "url": "https://www.gnu.org/software/bash/manual/bash.html"
+    },
+    {
+      "name": "Linux Documentation Project",
+      "url": "https://tldp.org/"
+    },
+    {
+      "name": "ShellCheck",
+      "url": "https://www.shellcheck.net/"
+    },
+    {
+      "name": "Puppet Documentation",
+      "url": "https://puppet.com/docs/"
+    },
+    {
+      "name": "Nginx Documentation",
+      "url": "https://nginx.org/en/docs/"
+    },
+    {
+      "name": "HAProxy Documentation",
+      "url": "https://www.haproxy.org/documentation.html"
+    }
+  ]
+}

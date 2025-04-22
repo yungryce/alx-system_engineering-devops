@@ -1,0 +1,79 @@
+{
+  "contextType": "educational",
+  "contextName": "Web Stack Debugging #2",
+  "contextDescription": "Debugging and securing web servers by running processes as non-root users, focusing on privilege de-escalation and security best practices",
+  "mainLanguage": "shell",
+  "supportLanguages": ["nginx"],
+  "topics": [
+    "web-stack-debugging",
+    "security",
+    "privilege-de-escalation",
+    "service-configuration",
+    "nginx",
+    "user-permissions",
+    "process-management",
+    "system-administration",
+    "devops",
+    "server-security",
+    "debugging-techniques",
+    "least-privilege-principle",
+    "process-ownership"
+  ],
+  "skillLevel": "intermediate",
+  "learningObjectives": [
+    "Understand the security risks of running services as root",
+    "Learn how to configure web servers to run under non-root users",
+    "Apply the principle of least privilege in server configurations",
+    "Debug permission and ownership issues in web server setups",
+    "Configure Nginx to run as a specific unprivileged user",
+    "Analyze and fix port binding issues for non-root processes",
+    "Use shell scripting to automate service reconfiguration",
+    "Optimize scripts for conciseness while maintaining functionality",
+    "Handle service conflicts through process management",
+    "Apply security best practices to web server deployments"
+  ],
+  "prerequisites": [
+    "Completion of 0x00-shell_basics module",
+    "Completion of 0x01-shell_permissions module",
+    "Completion of 0x02-shell_redirections module",
+    "Completion of 0x03-shell_variables_expansions module",
+    "Completion of 0x04-loops_conditions_and_parsing module",
+    "Completion of 0x05-processes_and_signals module",
+    "Completion of 0x09-web_infrastructure_design module",
+    "Completion of 0x0C-web_server module",
+    "Completion of 0x0D-web_stack_debugging_0 module",
+    "Completion of 0x0E-web_stack_debugging_1 module",
+    "Familiarity with web servers (particularly Nginx)"
+  ],
+  "associatedProjects": {
+    "previous": "0x10-https_ssl",
+    "next": "0x13-firewall",
+    "related": ["0x0D-web_stack_debugging_0", "0x0E-web_stack_debugging_1", "0x17-web_stack_debugging_3", "0x1B-web_stack_debugging_4"]
+  },
+  "resources": [
+    {
+      "name": "Running Nginx as a non-root user",
+      "url": "https://www.nginx.com/resources/wiki/start/topics/examples/nonrootwebserver/"
+    },
+    {
+      "name": "Principle of least privilege",
+      "url": "https://en.wikipedia.org/wiki/Principle_of_least_privilege"
+    },
+    {
+      "name": "Linux user management",
+      "url": "https://www.digitalocean.com/community/tutorials/how-to-add-and-delete-users-on-ubuntu-20-04"
+    },
+    {
+      "name": "Understanding Linux file permissions",
+      "url": "https://www.linux.com/training-tutorials/understanding-linux-file-permissions/"
+    },
+    {
+      "name": "Linux process management",
+      "url": "https://www.digitalocean.com/community/tutorials/how-to-use-ps-kill-and-nice-to-manage-processes-in-linux"
+    },
+    {
+      "name": "Security best practices for web servers",
+      "url": "https://www.tecmint.com/nginx-web-server-security-hardening-and-performance-tips/"
+    }
+  ]
+}

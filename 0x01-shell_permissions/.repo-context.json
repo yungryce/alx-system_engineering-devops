@@ -1,0 +1,53 @@
+{
+  "contextType": "educational",
+  "contextName": "Shell Permissions",
+  "contextDescription": "Introduction to Unix/Linux file permissions, ownership management, and security concepts for system administration",
+  "mainLanguage": "shell",
+  "supportLanguages": ["bash"],
+  "topics": [
+    "file-permissions",
+    "user-ownership",
+    "group-ownership",
+    "chmod-command",
+    "chown-command",
+    "symbolic-permissions",
+    "numeric-permissions",
+    "special-permissions",
+    "directory-permissions",
+    "security-concepts"
+  ],
+  "skillLevel": "beginner",
+  "learningObjectives": [
+    "Understand file permission concepts in Unix/Linux systems",
+    "Manipulate file permissions using symbolic and numeric notations",
+    "Change file and directory ownership",
+    "Manage group associations for files and directories",
+    "Apply special permissions (setuid, setgid, sticky bit)",
+    "Implement security best practices for file access control",
+    "Develop shell scripts for permission management"
+  ],
+  "prerequisites": [
+    "Basic terminal/command line knowledge",
+    "Linux/Unix operating system familiarity",
+    "Completion of 0x00-shell_basics module"
+  ],
+  "associatedProjects": {
+    "previous": "0x00-shell_basics",
+    "next": "0x02-shell_redirections",
+    "related": ["0x03-shell_variables_expansions"]
+  },
+  "resources": [
+    {
+      "name": "Linux File Permissions Explained",
+      "url": "https://www.linux.com/training-tutorials/understanding-linux-file-permissions/"
+    },
+    {
+      "name": "Chmod Calculator",
+      "url": "https://chmod-calculator.com/"
+    },
+    {
+      "name": "ShellCheck",
+      "url": "https://www.shellcheck.net/"
+    }
+  ]
+}

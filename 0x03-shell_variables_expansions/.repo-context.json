@@ -1,0 +1,61 @@
+{
+  "contextType": "educational",
+  "contextName": "Shell Variables and Expansions",
+  "contextDescription": "Introduction to Unix/Linux shell variables, aliases, expansions, and init files for customizing and enhancing shell environments",
+  "mainLanguage": "shell",
+  "supportLanguages": ["bash"],
+  "topics": [
+    "shell-variables",
+    "environment-variables",
+    "shell-initialization",
+    "variable-expansion",
+    "parameter-expansion",
+    "arithmetic-expansion",
+    "command-substitution",
+    "shell-aliases",
+    "path-management",
+    "number-base-conversion"
+  ],
+  "skillLevel": "beginner",
+  "learningObjectives": [
+    "Create and manage shell variables",
+    "Understand the difference between local and global variables",
+    "Work with shell initialization files",
+    "Define and use shell aliases",
+    "Manage the PATH environment variable",
+    "Perform arithmetic operations in shell",
+    "Use string manipulation and parameter expansion",
+    "Convert between different number bases",
+    "Apply variable expansion techniques in scripts",
+    "Implement command substitution for dynamic values"
+  ],
+  "prerequisites": [
+    "Basic terminal/command line knowledge",
+    "Completion of 0x00-shell_basics module",
+    "Completion of 0x01-shell_permissions module",
+    "Completion of 0x02-shell_redirections module"
+  ],
+  "associatedProjects": {
+    "previous": "0x02-shell_redirections",
+    "next": "0x04-loops_conditions_and_parsing",
+    "related": ["0x05-processes_and_signals"]
+  },
+  "resources": [
+    {
+      "name": "Bash Guide - Variables",
+      "url": "https://mywiki.wooledge.org/BashGuide/Parameters"
+    },
+    {
+      "name": "Advanced Bash-Scripting Guide - Parameter Substitution",
+      "url": "https://tldp.org/LDP/abs/html/parameter-substitution.html"
+    },
+    {
+      "name": "Bash Arithmetic Operations",
+      "url": "https://www.shell-tips.com/bash/math-arithmetic-calculation/"
+    },
+    {
+      "name": "ShellCheck",
+      "url": "https://www.shellcheck.net/"
+    }
+  ]
+}

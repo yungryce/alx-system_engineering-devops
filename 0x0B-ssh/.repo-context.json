@@ -1,0 +1,70 @@
+{
+  "contextType": "educational",
+  "contextName": "SSH",
+  "contextDescription": "Introduction to SSH, secure shell connections, SSH key creation, configuration, and best practices for secure remote access",
+  "mainLanguage": "shell",
+  "supportLanguages": ["puppet"],
+  "topics": [
+    "ssh",
+    "secure-shell",
+    "remote-access",
+    "cryptography",
+    "ssh-keys",
+    "key-management",
+    "authentication",
+    "server-management",
+    "ssh-configuration",
+    "puppet-configuration",
+    "password-less-login",
+    "security-best-practices"
+  ],
+  "skillLevel": "intermediate",
+  "learningObjectives": [
+    "Understand what SSH is and its purpose in secure remote access",
+    "Learn how to create SSH key pairs for authentication",
+    "Understand SSH client configuration options",
+    "Apply SSH security best practices",
+    "Configure SSH to disable password authentication",
+    "Use SSH keys for secure server access",
+    "Set up SSH client configuration files",
+    "Implement infrastructure as code with Puppet for SSH configuration",
+    "Troubleshoot common SSH connection issues",
+    "Manage SSH keys securely"
+  ],
+  "prerequisites": [
+    "Completion of 0x00-shell_basics module",
+    "Completion of 0x01-shell_permissions module",
+    "Completion of 0x02-shell_redirections module",
+    "Completion of 0x03-shell_variables_expansions module",
+    "Completion of 0x04-loops_conditions_and_parsing module",
+    "Completion of 0x05-processes_and_signals module",
+    "Basic understanding of networking concepts"
+  ],
+  "associatedProjects": {
+    "previous": "0x0A-configuration_management",
+    "next": "0x0C-web_server",
+    "related": ["0x0D-web_stack_debugging_0", "0x0F-load_balancer", "0x10-https_ssl"]
+  },
+  "resources": [
+    {
+      "name": "OpenSSH Documentation",
+      "url": "https://www.openssh.com/manual.html"
+    },
+    {
+      "name": "SSH Key Generation Tutorial",
+      "url": "https://www.ssh.com/academy/ssh/keygen"
+    },
+    {
+      "name": "SSH Config File Documentation",
+      "url": "https://linux.die.net/man/5/ssh_config"
+    },
+    {
+      "name": "Puppet Documentation for SSH Management",
+      "url": "https://puppet.com/docs/puppet/latest/types/ssh_authorized_key.html"
+    },
+    {
+      "name": "SSH Security Best Practices",
+      "url": "https://www.ssh.com/academy/ssh/security"
+    }
+  ]
+}

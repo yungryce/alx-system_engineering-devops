@@ -1,0 +1,82 @@
+{
+  "contextType": "educational",
+  "contextName": "Web Server",
+  "contextDescription": "Introduction to web servers, focusing on Nginx installation, configuration, domain setup, and automation with Puppet",
+  "mainLanguage": "shell",
+  "supportLanguages": ["puppet", "nginx"],
+  "topics": [
+    "web-server",
+    "nginx",
+    "http",
+    "domain-management",
+    "file-transfer",
+    "server-configuration",
+    "redirection",
+    "custom-error-pages",
+    "automation",
+    "puppet",
+    "infrastructure-as-code",
+    "scp"
+  ],
+  "skillLevel": "intermediate",
+  "learningObjectives": [
+    "Understand what a web server is and its main role",
+    "Learn how to transfer files to a server using SCP",
+    "Install and configure Nginx on a server",
+    "Set up and configure domain names with DNS",
+    "Implement redirection rules in Nginx",
+    "Create custom error pages",
+    "Automate web server deployment with Puppet",
+    "Understand the difference between root and alias in Nginx",
+    "Configure server blocks for hosting multiple websites",
+    "Apply secure shell (SSH) knowledge for server management",
+    "Debug common web server issues"
+  ],
+  "prerequisites": [
+    "Completion of 0x00-shell_basics module",
+    "Completion of 0x01-shell_permissions module",
+    "Completion of 0x02-shell_redirections module",
+    "Completion of 0x03-shell_variables_expansions module",
+    "Completion of 0x04-loops_conditions_and_parsing module",
+    "Completion of 0x05-processes_and_signals module",
+    "Completion of 0x0A-configuration_management module",
+    "Completion of 0x0B-ssh module",
+    "Knowledge of SSH and secure file transfer",
+    "Basic understanding of networking concepts"
+  ],
+  "associatedProjects": {
+    "previous": "0x0B-ssh",
+    "next": "0x0D-web_stack_debugging_0",
+    "related": ["0x0F-load_balancer", "0x10-https_ssl", "0x1A-application_server"]
+  },
+  "resources": [
+    {
+      "name": "How the web works",
+      "url": "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works"
+    },
+    {
+      "name": "Nginx documentation",
+      "url": "https://nginx.org/en/docs/"
+    },
+    {
+      "name": "What is a Child Process?",
+      "url": "https://www.gnu.org/software/libc/manual/html_node/Processes.html"
+    },
+    {
+      "name": "DNS Concepts",
+      "url": "https://www.cloudflare.com/learning/dns/what-is-dns/"
+    },
+    {
+      "name": "HTTP redirections",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Redirections"
+    },
+    {
+      "name": "Puppet resource type: file_line",
+      "url": "https://puppet.com/docs/puppet/latest/types/file_line.html"
+    },
+    {
+      "name": "RFC 7231 (HTTP/1.1)",
+      "url": "https://tools.ietf.org/html/rfc7231"
+    }
+  ]
+}

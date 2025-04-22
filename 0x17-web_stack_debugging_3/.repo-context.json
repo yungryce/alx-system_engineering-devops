@@ -1,0 +1,68 @@
+{
+  "contextType": "educational",
+  "contextName": "Web Stack Debugging #3",
+  "contextDescription": "Debugging a WordPress website running on a LAMP stack using strace and implementing fixes with Puppet",
+  "mainLanguage": "puppet",
+  "supportLanguages": ["bash", "php"],
+  "topics": [
+    "web-stack-debugging",
+    "strace-diagnostics",
+    "puppet-automation",
+    "lamp-stack",
+    "wordpress-configuration",
+    "apache-troubleshooting",
+    "system-calls-analysis",
+    "error-diagnosis",
+    "puppet-manifests",
+    "file-pattern-replacement"
+  ],
+  "skillLevel": "intermediate",
+  "learningObjectives": [
+    "Understand how to use system call tracing for debugging web applications",
+    "Learn to identify configuration errors in web server environments",
+    "Apply Puppet for automated configuration management",
+    "Debug 500 error responses in Apache web server",
+    "Use strace to monitor system calls and diagnose issues",
+    "Implement file editing with Puppet exec resources",
+    "Fix WordPress configuration problems",
+    "Create repeatable fixes through automation",
+    "Understand file operations in the LAMP stack environment",
+    "Apply systematic debugging methodology"
+  ],
+  "prerequisites": [
+    "Completion of 0x0C-web_server module",
+    "Completion of 0x0A-configuration_management module",
+    "Completion of 0x0D-web_stack_debugging_0 module",
+    "Completion of 0x0E-web_stack_debugging_1 module",
+    "Completion of 0x12-web_stack_debugging_2 module",
+    "Familiarity with LAMP stack components",
+    "Basic understanding of Puppet"
+  ],
+  "associatedProjects": {
+    "previous": "0x16-api_advanced",
+    "next": "0x18-webstack_monitoring",
+    "related": ["0x0D-web_stack_debugging_0", "0x0E-web_stack_debugging_1", "0x12-web_stack_debugging_2", "0x1B-web_stack_debugging_4"]
+  },
+  "resources": [
+    {
+      "name": "Web Stack Debugging Guide",
+      "url": "https://intranet.alxswe.com/concepts/68"
+    },
+    {
+      "name": "Strace Documentation",
+      "url": "https://man7.org/linux/man-pages/man1/strace.1.html"
+    },
+    {
+      "name": "Puppet Documentation",
+      "url": "https://puppet.com/docs/puppet/5.5/puppet_index.html"
+    },
+    {
+      "name": "WordPress Debugging",
+      "url": "https://wordpress.org/support/article/debugging-in-wordpress/"
+    },
+    {
+      "name": "Apache Error Troubleshooting",
+      "url": "https://httpd.apache.org/docs/2.4/troubleshooting.html"
+    }
+  ]
+}

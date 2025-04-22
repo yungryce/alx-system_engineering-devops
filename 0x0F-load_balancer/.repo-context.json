@@ -1,0 +1,82 @@
+{
+  "contextType": "educational",
+  "contextName": "Load Balancer",
+  "contextDescription": "Implementation of load balancing with HAProxy, configuring web servers with custom HTTP headers, and optimizing high-traffic web infrastructure",
+  "mainLanguage": "shell",
+  "supportLanguages": ["nginx", "haproxy"],
+  "topics": [
+    "load-balancing",
+    "haproxy",
+    "nginx",
+    "http-headers",
+    "web-infrastructure",
+    "high-availability",
+    "server-redundancy",
+    "traffic-distribution",
+    "reverse-proxy",
+    "system-administration",
+    "devops",
+    "server-configuration",
+    "network-architecture",
+    "scalability"
+  ],
+  "skillLevel": "intermediate",
+  "learningObjectives": [
+    "Understand the concept and importance of load balancing in web infrastructure",
+    "Learn how to install and configure HAProxy as a load balancer",
+    "Configure Nginx servers with custom HTTP response headers",
+    "Implement redundancy in web infrastructure for high availability",
+    "Apply round-robin algorithm for traffic distribution",
+    "Master server identification through custom HTTP headers",
+    "Configure HAProxy health checks for server monitoring",
+    "Understand the role of load balancers in scalable web applications",
+    "Learn to optimize system configurations for load balancing",
+    "Apply best practices for multi-server web architectures"
+  ],
+  "prerequisites": [
+    "Completion of 0x00-shell_basics module",
+    "Completion of 0x01-shell_permissions module",
+    "Completion of 0x02-shell_redirections module",
+    "Completion of 0x03-shell_variables_expansions module",
+    "Completion of 0x04-loops_conditions_and_parsing module",
+    "Completion of 0x05-processes_and_signals module",
+    "Completion of 0x09-web_infrastructure_design module",
+    "Completion of 0x0A-configuration_management module",
+    "Completion of 0x0B-ssh module",
+    "Completion of 0x0C-web_server module",
+    "Completion of 0x0D-web_stack_debugging_0 module",
+    "Completion of 0x0E-web_stack_debugging_1 module",
+    "Basic understanding of web servers and HTTP protocol"
+  ],
+  "associatedProjects": {
+    "previous": "0x0E-web_stack_debugging_1",
+    "next": "0x10-https_ssl",
+    "related": ["0x13-firewall", "0x18-webstack_monitoring", "0x1A-application_server"]
+  },
+  "resources": [
+    {
+      "name": "Introduction to load balancing",
+      "url": "https://www.digitalocean.com/community/tutorials/an-introduction-to-haproxy-and-load-balancing-concepts"
+    },
+    {
+      "name": "HAProxy documentation",
+      "url": "http://www.haproxy.org/download/2.5/doc/configuration.txt"
+    },
+    {
+      "name": "HTTP headers",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers"
+    },
+    {
+      "name": "Nginx custom headers",
+      "url": "https://nginx.org/en/docs/http/ngx_http_headers_module.html"
+    },
+    {
+      "name": "Load Balancing Algorithms",
+      "url": "https://www.haproxy.com/blog/load-balancing-algorithms/"
+    },
+    {
+      "name": "High Availability Architecture",
+      "url": "https://www.digitalocean.com/community/tutorials/what-is-high-availability"
+    }
+  ]
+}

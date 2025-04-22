@@ -1,0 +1,72 @@
+{
+  "contextType": "educational",
+  "contextName": "Web Stack Debugging #4",
+  "contextDescription": "Advanced debugging techniques for web server performance optimization and system limit configuration using Puppet",
+  "mainLanguage": "puppet",
+  "supportLanguages": ["shell", "nginx"],
+  "topics": [
+    "web-stack-debugging",
+    "performance-optimization",
+    "configuration-management",
+    "infrastructure-as-code",
+    "nginx-configuration",
+    "system-limits",
+    "puppet",
+    "benchmarking",
+    "resource-management",
+    "file-descriptors",
+    "concurrent-connections"
+  ],
+  "skillLevel": "advanced",
+  "learningObjectives": [
+    "Identify performance bottlenecks in web server configurations",
+    "Optimize web servers for high concurrent loads",
+    "Configure OS-level resource limits for enhanced performance",
+    "Apply benchmarking techniques to verify performance improvements",
+    "Implement automated infrastructure fixes using Puppet",
+    "Debug complex system resource constraints",
+    "Resolve user-level file descriptor limitations",
+    "Measure and improve web server response under heavy load",
+    "Understand the relationship between system configuration and application performance",
+    "Master the debugging methodology for complex web stack issues"
+  ],
+  "prerequisites": [
+    "Completion of 0x00-shell_basics module",
+    "Completion of 0x0C-web_server module",
+    "Completion of 0x0D-web_stack_debugging_0 module",
+    "Completion of 0x0E-web_stack_debugging_1 module",
+    "Completion of 0x0F-load_balancer module",
+    "Completion of 0x12-web_stack_debugging_2 module",
+    "Completion of 0x17-web_stack_debugging_3 module",
+    "Basic understanding of Puppet syntax",
+    "Experience with Nginx configuration",
+    "Knowledge of Linux system administration"
+  ],
+  "associatedProjects": {
+    "previous": "0x17-web_stack_debugging_3",
+    "next": null,
+    "related": ["0x0D-web_stack_debugging_0", "0x0E-web_stack_debugging_1", "0x12-web_stack_debugging_2", "0x17-web_stack_debugging_3", "0x18-webstack_monitoring"]
+  },
+  "resources": [
+    {
+      "name": "Puppet Documentation",
+      "url": "https://puppet.com/docs/puppet/3.8/index.html"
+    },
+    {
+      "name": "Nginx Performance Tuning",
+      "url": "https://www.nginx.com/blog/tuning-nginx/"
+    },
+    {
+      "name": "Linux System Limits",
+      "url": "https://www.kernel.org/doc/Documentation/sysctl/fs.txt"
+    },
+    {
+      "name": "ApacheBench Documentation",
+      "url": "https://httpd.apache.org/docs/2.4/programs/ab.html"
+    },
+    {
+      "name": "Web Stack Debugging Guide",
+      "url": "https://intranet.alxswe.com/concepts/68"
+    }
+  ]
+}

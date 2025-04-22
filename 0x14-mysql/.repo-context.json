@@ -1,0 +1,80 @@
+{
+  "contextType": "educational",
+  "contextName": "MySQL",
+  "contextDescription": "Implementation of MySQL primary-replica infrastructure, focusing on database replication, backup strategies, and high availability configurations",
+  "mainLanguage": "sql",
+  "supportLanguages": ["shell", "mysql"],
+  "topics": [
+    "mysql",
+    "database-replication",
+    "master-slave-setup",
+    "high-availability",
+    "data-backup",
+    "database-configuration",
+    "disaster-recovery",
+    "system-redundancy",
+    "data-persistence",
+    "database-administration",
+    "server-configuration",
+    "primary-replica-architecture",
+    "data-security",
+    "mysql-backup-strategies",
+    "database-recovery"
+  ],
+  "skillLevel": "intermediate",
+  "learningObjectives": [
+    "Understand MySQL primary-replica architecture and benefits",
+    "Learn how to configure MySQL for replication between servers",
+    "Implement database backup solutions for disaster recovery",
+    "Configure MySQL server roles (primary and replica)",
+    "Master data synchronization techniques between database servers",
+    "Apply high availability principles to database infrastructure",
+    "Develop competency in database administration tasks",
+    "Practice secure MySQL configuration methods",
+    "Implement automated backup procedures using shell scripting",
+    "Understand replication mechanisms and replica lag management"
+  ],
+  "prerequisites": [
+    "Completion of 0x00-shell_basics module",
+    "Completion of 0x01-shell_permissions module",
+    "Completion of 0x02-shell_redirections module",
+    "Completion of 0x03-shell_variables_expansions module",
+    "Completion of 0x04-loops_conditions_and_parsing module",
+    "Completion of 0x05-processes_and_signals module",
+    "Completion of 0x0C-web_server module",
+    "Completion of 0x0F-load_balancer module",
+    "Basic understanding of database concepts",
+    "Familiarity with Linux server administration"
+  ],
+  "associatedProjects": {
+    "previous": "0x13-firewall",
+    "next": "0x15-api",
+    "related": ["0x0C-web_server", "0x0F-load_balancer", "0x10-https_ssl", "0x18-webstack_monitoring"]
+  },
+  "resources": [
+    {
+      "name": "What is a primary-replica cluster",
+      "url": "https://www.digitalocean.com/community/tutorials/how-to-set-up-replication-in-mysql"
+    },
+    {
+      "name": "MySQL primary replica setup",
+      "url": "https://dev.mysql.com/doc/refman/8.0/en/replication.html"
+    },
+    {
+      "name": "MySQL Backup Strategy",
+      "url": "https://dev.mysql.com/doc/refman/8.0/en/backup-methods.html"
+    },
+    {
+      "name": "Configuring MySQL replication",
+      "url": "https://dev.mysql.com/doc/refman/8.0/en/replication-configuration.html"
+    },
+    {
+      "name": "MySQL database backup methods",
+      "url": "https://www.digitalocean.com/community/tutorials/how-to-backup-mysql-databases-on-ubuntu-20-04"
+    },
+    {
+      "name": "High Availability Database Architecture",
+      "url": "https://www.percona.com/blog/2020/04/21/exploring-mysql-high-availability-solutions/"
+    }
+  ]
+}

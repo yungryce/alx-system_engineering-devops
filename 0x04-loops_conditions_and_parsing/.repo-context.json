@@ -1,0 +1,62 @@
+{
+  "contextType": "educational",
+  "contextName": "Loops, Conditions and Parsing",
+  "contextDescription": "Introduction to advanced shell scripting concepts including loops, conditional statements, file parsing, and SSH key management",
+  "mainLanguage": "shell",
+  "supportLanguages": ["bash"],
+  "topics": [
+    "loops-in-bash",
+    "conditional-statements",
+    "file-parsing",
+    "ssh-keys",
+    "shellcheck",
+    "script-debugging",
+    "process-management",
+    "string-manipulation",
+    "log-parsing",
+    "file-tests"
+  ],
+  "skillLevel": "intermediate",
+  "learningObjectives": [
+    "Create SSH keys for secure authentication",
+    "Use different types of loops in Bash scripts",
+    "Implement conditional statements in shell scripts",
+    "Parse and process files using shell commands",
+    "Debug scripts using shellcheck",
+    "Apply file test operators for validation",
+    "Work with comparison operators in shell",
+    "Use and understand case statements",
+    "Process Apache log files for data extraction",
+    "Build complex scripts with multiple control structures"
+  ],
+  "prerequisites": [
+    "Completion of 0x00-shell_basics module",
+    "Completion of 0x01-shell_permissions module",
+    "Completion of 0x02-shell_redirections module",
+    "Completion of 0x03-shell_variables_expansions module",
+    "Basic understanding of shell scripting"
+  ],
+  "associatedProjects": {
+    "previous": "0x03-shell_variables_expansions",
+    "next": "0x05-processes_and_signals",
+    "related": ["0x06-regular_expressions", "0x07-networking_basics"]
+  },
+  "resources": [
+    {
+      "name": "Bash Guide - Loops",
+      "url": "https://tldp.org/LDP/Bash-Beginners-Guide/html/chap_09.html"
+    },
+    {
+      "name": "Advanced Bash-Scripting Guide - Tests",
+      "url": "https://tldp.org/LDP/abs/html/tests.html"
+    },
+    {
+      "name": "SSH Key Generation Guide",
+      "url": "https://www.ssh.com/academy/ssh/keygen"
+    },
+    {
+      "name": "ShellCheck",
+      "url": "https://www.shellcheck.net/"
+    }
+  ]
+}

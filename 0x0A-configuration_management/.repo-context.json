@@ -1,0 +1,73 @@
+{
+  "contextType": "educational",
+  "contextName": "Configuration Management",
+  "contextDescription": "Introduction to infrastructure automation and configuration management principles using Puppet, focusing on maintaining consistent environments and automated server provisioning",
+  "mainLanguage": "puppet",
+  "supportLanguages": ["ruby", "shell"],
+  "topics": [
+    "configuration-management",
+    "infrastructure-as-code",
+    "puppet",
+    "automation",
+    "server-provisioning",
+    "declarative-configuration",
+    "idempotent-operations",
+    "server-management",
+    "resource-management",
+    "state-management",
+    "manifests",
+    "modules"
+  ],
+  "skillLevel": "intermediate",
+  "learningObjectives": [
+    "Understand the concept of configuration management",
+    "Create and maintain infrastructure as code",
+    "Write Puppet manifests to automate server configuration",
+    "Apply idempotent operations for consistent environments",
+    "Manage packages, files, and services through Puppet",
+    "Debug configuration management code",
+    "Implement resource ordering and dependencies",
+    "Organize configuration code with Puppet modules",
+    "Create reusable configuration components",
+    "Apply DevOps principles to system administration"
+  ],
+  "prerequisites": [
+    "Completion of 0x00-shell_basics module",
+    "Completion of 0x08-networking_basics_2 module",
+    "Completion of 0x09-web_infrastructure_design module",
+    "Basic understanding of system administration",
+    "Familiarity with Linux server environments",
+    "Experience with command line interfaces"
+  ],
+  "associatedProjects": {
+    "previous": "0x09-web_infrastructure_design",
+    "next": "0x0B-ssh",
+    "related": ["0x0C-web_server", "0x1A-application_server", "0x1B-web_stack_debugging_4"]
+  },
+  "resources": [
+    {
+      "name": "Puppet Documentation",
+      "url": "https://puppet.com/docs/puppet/latest/puppet_index.html"
+    },
+    {
+      "name": "Introduction to Configuration Management",
+      "url": "https://www.digitalocean.com/community/tutorials/an-introduction-to-configuration-management"
+    },
+    {
+      "name": "Puppet Language Style Guide",
+      "url": "https://puppet.com/docs/puppet/latest/style_guide.html"
+    },
+    {
+      "name": "Infrastructure as Code Principles",
+      "url": "https://www.thoughtworks.com/insights/blog/infrastructure-code-reason-smile"
+    },
+    {
+      "name": "Puppet Resource Types Reference",
+      "url": "https://puppet.com/docs/puppet/latest/type.html"
+    },
+    {
+      "name": "Puppet Manifests Tutorial",
+      "url": "https://www.tutorialspoint.com/puppet/puppet_manifests.htm"
+    }
+  ]
+}

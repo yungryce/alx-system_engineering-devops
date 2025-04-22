@@ -1,0 +1,68 @@
+{
+  "contextType": "educational",
+  "contextName": "Webstack Monitoring",
+  "contextDescription": "Implementation of comprehensive monitoring solutions for web infrastructure using Datadog to track server metrics and application performance",
+  "mainLanguage": "bash",
+  "supportLanguages": ["python", "yaml"],
+  "topics": [
+    "server-monitoring",
+    "application-monitoring",
+    "datadog-integration",
+    "metrics-collection",
+    "dashboard-creation",
+    "alert-configuration",
+    "performance-tracking",
+    "infrastructure-observability",
+    "resource-utilization",
+    "system-metrics"
+  ],
+  "skillLevel": "intermediate",
+  "learningObjectives": [
+    "Understand the difference between application and server monitoring",
+    "Set up monitoring tools for web infrastructure",
+    "Configure monitoring agents on servers",
+    "Identify key metrics to monitor for web servers",
+    "Create meaningful dashboards for performance visualization",
+    "Implement alerts for critical system events",
+    "Analyze system performance through monitoring data",
+    "Track resource utilization metrics",
+    "Configure monitoring for web applications",
+    "Implement infrastructure observability best practices"
+  ],
+  "prerequisites": [
+    "Completion of 0x0C-web_server module",
+    "Completion of 0x0F-load_balancer module",
+    "Completion of 0x10-https_ssl module",
+    "Completion of 0x17-web_stack_debugging_3 module",
+    "Familiarity with web server administration",
+    "Basic understanding of system metrics",
+    "Knowledge of Linux server administration"
+  ],
+  "associatedProjects": {
+    "previous": "0x17-web_stack_debugging_3",
+    "next": "0x1A-application_server",
+    "related": ["0x0C-web_server", "0x0F-load_balancer", "0x10-https_ssl"]
+  },
+  "resources": [
+    {
+      "name": "Monitoring Web Server QoS with Datadog",
+      "url": "https://www.datadoghq.com/blog/monitoring-101-collecting-data/"
+    },
+    {
+      "name": "System Check Core Metrics",
+      "url": "https://docs.datadoghq.com/integrations/system/"
+    },
+    {
+      "name": "Datadog API Documentation",
+      "url": "https://docs.datadoghq.com/api/latest/"
+    },
+    {
+      "name": "Metrics to Monitor in Your Web Server",
+      "url": "https://www.datadoghq.com/blog/web-server-monitoring/"
+    },
+    {
+      "name": "Introduction to Monitoring and Alerting",
+      "url": "https://www.digitalocean.com/community/tutorials/an-introduction-to-metrics-monitoring-and-alerting"
+    }
+  ]
+}

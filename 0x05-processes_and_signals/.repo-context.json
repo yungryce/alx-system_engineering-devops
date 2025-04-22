@@ -1,0 +1,63 @@
+{
+  "contextType": "educational",
+  "contextName": "Processes and Signals",
+  "contextDescription": "Introduction to Linux processes, signals, and job control including process management, signal handling, and daemon creation",
+  "mainLanguage": "shell",
+  "supportLanguages": ["bash"],
+  "topics": [
+    "process-management",
+    "signal-handling",
+    "job-control",
+    "background-processes",
+    "process-identification",
+    "daemon-creation",
+    "init-systems",
+    "process-termination",
+    "process-monitoring",
+    "inter-process-communication"
+  ],
+  "skillLevel": "intermediate",
+  "learningObjectives": [
+    "Understand what a process is and its lifecycle in Linux",
+    "Find and identify running processes using various commands",
+    "Manipulate processes using signals",
+    "Create and manage background processes",
+    "Implement signal handlers in Bash scripts",
+    "Create daemon processes",
+    "Use tools like ps, pgrep, pkill, kill, and trap",
+    "Understand process IDs (PID) and parent PIDs (PPID)",
+    "Monitor and control process execution",
+    "Implement graceful termination of processes"
+  ],
+  "prerequisites": [
+    "Completion of 0x00-shell_basics module",
+    "Completion of 0x01-shell_permissions module",
+    "Completion of 0x02-shell_redirections module",
+    "Completion of 0x03-shell_variables_expansions module",
+    "Completion of 0x04-loops_conditions_and_parsing module",
+    "Intermediate understanding of shell scripting"
+  ],
+  "associatedProjects": {
+    "previous": "0x04-loops_conditions_and_parsing",
+    "next": "0x06-regular_expressions",
+    "related": ["0x07-networking_basics", "0x08-networking_basics_2"]
+  },
+  "resources": [
+    {
+      "name": "Linux Processes and Signals",
+      "url": "https://www.tutorialspoint.com/unix/unix-processes.htm"
+    },
+    {
+      "name": "Bash Signal Handling",
+      "url": "https://www.gnu.org/software/bash/manual/html_node/Signals.html"
+    },
+    {
+      "name": "Process Management in Linux",
+      "url": "https://www.digitalocean.com/community/tutorials/process-management-in-linux"
+    },
+    {
+      "name": "ShellCheck",
+      "url": "https://www.shellcheck.net/"
+    }
+  ]
+}

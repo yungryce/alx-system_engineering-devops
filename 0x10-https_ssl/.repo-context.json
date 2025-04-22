@@ -1,0 +1,80 @@
+{
+  "contextType": "educational",
+  "contextName": "HTTPS SSL",
+  "contextDescription": "Implementation of secure web infrastructure with HTTPS/SSL, domain configuration, and encryption for web traffic",
+  "mainLanguage": "shell",
+  "supportLanguages": ["haproxy", "dns"],
+  "topics": [
+    "https",
+    "ssl",
+    "tls",
+    "encryption",
+    "certificate-authority",
+    "domain-configuration",
+    "subdomains",
+    "dns-records",
+    "load-balancer",
+    "haproxy",
+    "ssl-termination",
+    "http-redirection",
+    "web-security",
+    "cryptography"
+  ],
+  "skillLevel": "intermediate",
+  "learningObjectives": [
+    "Understand the roles of HTTPS, SSL and TLS in securing web traffic",
+    "Learn how to configure domain names and subdomains with DNS records",
+    "Implement SSL termination with HAProxy",
+    "Configure HTTP to HTTPS redirection for secure connections",
+    "Master domain information retrieval using dig and other DNS tools",
+    "Create bash scripts to automate domain analysis",
+    "Understand the main encryption algorithms used in HTTPS",
+    "Apply certificate management best practices",
+    "Implement secure web infrastructure with load balancing",
+    "Analyze and configure SSL certificates for web servers"
+  ],
+  "prerequisites": [
+    "Completion of 0x00-shell_basics module",
+    "Completion of 0x01-shell_permissions module",
+    "Completion of 0x02-shell_redirections module",
+    "Completion of 0x03-shell_variables_expansions module",
+    "Completion of 0x04-loops_conditions_and_parsing module",
+    "Completion of 0x05-processes_and_signals module",
+    "Completion of 0x09-web_infrastructure_design module",
+    "Completion of 0x0C-web_server module",
+    "Completion of 0x0F-load_balancer module",
+    "Basic understanding of networking concepts",
+    "Familiarity with web servers and load balancers"
+  ],
+  "associatedProjects": {
+    "previous": "0x0F-load_balancer",
+    "next": "0x12-web_stack_debugging_2",
+    "related": ["0x13-firewall", "0x18-webstack_monitoring", "0x1A-application_server"]
+  },
+  "resources": [
+    {
+      "name": "What is HTTPS",
+      "url": "https://www.cloudflare.com/learning/ssl/what-is-https/"
+    },
+    {
+      "name": "What are SSL/TLS certificates",
+      "url": "https://www.digicert.com/what-is-an-ssl-certificate"
+    },
+    {
+      "name": "HAProxy SSL Termination",
+      "url": "https://www.haproxy.com/blog/haproxy-ssl-termination/"
+    },
+    {
+      "name": "DNS subdomain configuration",
+      "url": "https://www.cloudflare.com/learning/dns/dns-records/dns-subdomain-setup/"
+    },
+    {
+      "name": "Bash scripting for domain analysis",
+      "url": "https://linuxconfig.org/how-to-use-dig-command-to-query-dns-in-linux"
+    },
+    {
+      "name": "SSL Certificate Management",
+      "url": "https://www.ssl.com/guide/ssl-best-practices/"
+    }
+  ]
+}

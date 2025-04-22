@@ -1,0 +1,75 @@
+{
+  "contextType": "educational",
+  "contextName": "Web Infrastructure Design",
+  "contextDescription": "Design and architecture of robust, secure, and scalable web infrastructures, focusing on server configurations, network optimization, and high availability systems",
+  "mainLanguage": "conceptual",
+  "supportLanguages": ["shell", "networking"],
+  "topics": [
+    "web-servers",
+    "load-balancing",
+    "database-replication",
+    "dns-configuration",
+    "firewalls",
+    "high-availability",
+    "scaling-strategies",
+    "infrastructure-security",
+    "monitoring-systems",
+    "fault-tolerance",
+    "system-design",
+    "network-architecture"
+  ],
+  "skillLevel": "intermediate",
+  "learningObjectives": [
+    "Design a one server web infrastructure hosting a website",
+    "Explain the role of each component in web infrastructure",
+    "Identify single points of failure in system designs",
+    "Implement solutions for high availability and fault tolerance",
+    "Design secure web infrastructures with appropriate firewalls",
+    "Configure load balancers for distributed traffic handling",
+    "Implement database replication for data redundancy",
+    "Design scalable web infrastructures for growing traffic demands",
+    "Explain the purpose of monitoring and how it's implemented",
+    "Understand domain name configuration and DNS records",
+    "Identify security issues in web infrastructure design",
+    "Diagram comprehensive web infrastructure solutions"
+  ],
+  "prerequisites": [
+    "Completion of 0x00-shell_basics module",
+    "Completion of 0x07-networking_basics module",
+    "Completion of 0x08-networking_basics_2 module",
+    "Basic understanding of web servers and databases",
+    "Understanding of network protocols (HTTP, TCP/IP)",
+    "Familiarity with Linux server administration concepts"
+  ],
+  "associatedProjects": {
+    "previous": "0x08-networking_basics_2",
+    "next": "0x0A-configuration_management",
+    "related": ["0x0C-web_server", "0x0F-load_balancer", "0x10-https_ssl", "0x14-mysql"]
+  },
+  "resources": [
+    {
+      "name": "Web Architecture 101",
+      "url": "https://engineering.videoblocks.com/web-architecture-101-a3224e126947"
+    },
+    {
+      "name": "System Design Primer",
+      "url": "https://github.com/donnemartin/system-design-primer"
+    },
+    {
+      "name": "High Availability Web Architecture",
+      "url": "https://www.digitalocean.com/community/tutorials/what-is-high-availability"
+    },
+    {
+      "name": "Load Balancing Concepts",
+      "url": "https://www.nginx.com/resources/glossary/load-balancing/"
+    },
+    {
+      "name": "Database Replication",
+      "url": "https://dev.mysql.com/doc/refman/8.0/en/replication.html"
+    },
+    {
+      "name": "DNS Configuration",
+      "url": "https://www.cloudflare.com/learning/dns/what-is-dns/"
+    }
+  ]
+}

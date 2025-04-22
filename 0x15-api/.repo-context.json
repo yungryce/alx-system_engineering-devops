@@ -1,0 +1,82 @@
+{
+  "contextType": "educational",
+  "contextName": "API",
+  "contextDescription": "Introduction to APIs (Application Programming Interfaces) and implementation of REST API clients for data retrieval and processing in Python",
+  "mainLanguage": "python",
+  "supportLanguages": ["json", "csv"],
+  "topics": [
+    "api",
+    "rest-api",
+    "http-requests",
+    "data-processing",
+    "json-parsing",
+    "csv-export",
+    "python-requests",
+    "microservices",
+    "api-client",
+    "data-serialization",
+    "data-deserialization",
+    "system-integration",
+    "web-services",
+    "data-formats",
+    "api-consumption"
+  ],
+  "skillLevel": "intermediate",
+  "learningObjectives": [
+    "Understand what APIs are and their purpose in software integration",
+    "Learn how to interact with REST APIs programmatically",
+    "Implement Python scripts to retrieve data from external services",
+    "Process JSON responses from API calls",
+    "Export data to different formats (CSV and JSON)",
+    "Apply proper error handling for API requests",
+    "Structure API response data in different formats",
+    "Understand the transition from Bash to Python for system administration tasks",
+    "Use the Python requests library for HTTP requests",
+    "Recognize common REST API patterns and practices"
+  ],
+  "prerequisites": [
+    "Completion of 0x00-shell_basics module",
+    "Completion of 0x01-shell_permissions module",
+    "Completion of 0x02-shell_redirections module",
+    "Completion of 0x03-shell_variables_expansions module",
+    "Completion of 0x04-loops_conditions_and_parsing module",
+    "Completion of 0x05-processes_and_signals module",
+    "Basic understanding of Python syntax and libraries",
+    "Familiarity with JSON and CSV data formats"
+  ],
+  "associatedProjects": {
+    "previous": "0x14-mysql",
+    "next": "0x16-api_advanced",
+    "related": ["0x06-regular_expressions", "0x09-web_infrastructure_design", "0x18-webstack_monitoring"]
+  },
+  "resources": [
+    {
+      "name": "What is an API?",
+      "url": "https://www.mulesoft.com/resources/api/what-is-an-api"
+    },
+    {
+      "name": "Python Requests Library Documentation",
+      "url": "https://docs.python-requests.org/en/latest/"
+    },
+    {
+      "name": "JSON Placeholder API",
+      "url": "https://jsonplaceholder.typicode.com/"
+    },
+    {
+      "name": "Working with JSON in Python",
+      "url": "https://docs.python.org/3/library/json.html"
+    },
+    {
+      "name": "Working with CSV in Python",
+      "url": "https://docs.python.org/3/library/csv.html"
+    },
+    {
+      "name": "REST API Design Best Practices",
+      "url": "https://restfulapi.net/"
+    },
+    {
+      "name": "PEP 8 - Style Guide for Python Code",
+      "url": "https://www.python.org/dev/peps/pep-0008/"
+    }
+  ]
+}
