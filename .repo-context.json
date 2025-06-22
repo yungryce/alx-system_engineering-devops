@@ -1,9 +1,43 @@
 {
-  "contextType": "educational",
-  "contextName": "System Engineering & DevOps",
-  "contextDescription": "Comprehensive curriculum covering shell scripting, system administration, networking, web infrastructure design, and DevOps practices for robust, scalable server environments",
-  "mainLanguage": "shell",
-  "supportLanguages": ["bash", "puppet", "python", "ruby"],
+  "project_identity": {
+    "name": "alx-system_engineering-devops",
+    "type": "educational",
+    "scope": "System Engineering & DevOps curriculum",
+    "is_independent": true,
+    "version": "1.0.0",
+    "related_versions": [],
+    "description": "Comprehensive curriculum covering shell scripting, system administration, networking, web infrastructure design, and DevOps practices for robust, scalable server environments."
+  },
+  "tech_stack": {
+    "primary": ["shell", "bash", "puppet", "python", "ruby"],
+    "secondary": [],
+    "key_libraries": []
+  },
+  "skill_manifest": {
+    "technical": [
+      "Shell scripting proficiency",
+      "System administration capabilities",
+      "Networking configuration expertise",
+      "Web infrastructure design and implementation",
+      "Security implementation and hardening",
+      "Monitoring and observability practices",
+      "Debugging and troubleshooting methodologies",
+      "Automation and configuration management",
+      "Service deployment and management",
+      "High availability implementation",
+      "Database management"
+    ],
+    "domain": [
+      "system engineering",
+      "devops",
+      "networking",
+      "security",
+      "automation",
+      "web infrastructure"
+    ]
+  },
+  "components": {},
+  "progression": {},
   "topics": [
     "shell-scripting",
     "system-administration",
@@ -24,28 +58,6 @@
     "ssh"
   ],
   "skillLevel": "beginner-to-advanced",
-  "learningSequence": [
-    "shell-basics",
-    "shell-permissions",
-    "shell-redirections",
-    "shell-variables-expansions",
-    "loops-conditions-parsing",
-    "processes-signals",
-    "regular-expressions",
-    "networking-basics",
-    "web-infrastructure-design",
-    "configuration-management",
-    "ssh",
-    "web-server",
-    "web-stack-debugging",
-    "load-balancer",
-    "https-ssl",
-    "firewall",
-    "mysql",
-    "api",
-    "webstack-monitoring",
-    "application-server"
-  ],
   "projectStructure": {
     "shellFundamentals": [
       "0x00-shell_basics",
@@ -116,30 +128,16 @@
       "Research and investigation techniques"
     ]
   },
-  "resources": [
-    {
-      "name": "Bash Manual",
-      "url": "https://www.gnu.org/software/bash/manual/bash.html"
-    },
-    {
-      "name": "Linux Documentation Project",
-      "url": "https://tldp.org/"
-    },
-    {
-      "name": "ShellCheck",
-      "url": "https://www.shellcheck.net/"
-    },
-    {
-      "name": "Puppet Documentation",
-      "url": "https://puppet.com/docs/"
-    },
-    {
-      "name": "Nginx Documentation",
-      "url": "https://nginx.org/en/docs/"
-    },
-    {
-      "name": "HAProxy Documentation",
-      "url": "https://www.haproxy.org/documentation.html"
-    }
-  ]
+  "prerequisites": [],
+  "associatedProjects": {
+    "previous": "",
+    "next": "",
+    "related": []
+  },
+  "files": {
+    "authors_file": "./AUTHOR",
+    "license_file": "",
+    "readme_file": "./README.md",
+    "requirements_file": "./requirements.txt"
+  }
 }
