@@ -1,9 +1,34 @@
 {
-  "contextType": "educational",
-  "contextName": "API Advanced",
-  "contextDescription": "Advanced API interaction techniques, focusing on working with the Reddit API to retrieve and process data using Python",
-  "mainLanguage": "python",
-  "supportLanguages": ["json"],
+  "project_identity": {
+    "name": "0x16-api_advanced",
+    "type": "educational",
+    "scope": "Advanced API interaction techniques, focusing on working with the Reddit API to retrieve and process data using Python.",
+    "is_independent": false,
+    "version": "1.0.0",
+    "related_versions": [],
+    "description": "Covers advanced API usage, Reddit API, authentication, pagination, recursion, and data analysis."
+  },
+  "tech_stack": {
+    "primary": ["python", "json"],
+    "secondary": [],
+    "key_libraries": []
+  },
+  "skill_manifest": {
+    "technical": [
+      "Advanced API usage",
+      "Reddit API integration",
+      "Authentication",
+      "Pagination and recursion",
+      "Data analysis"
+    ],
+    "domain": [
+      "api integration",
+      "data analysis",
+      "backend programming"
+    ]
+  },
+  "components": {},
+  "progression": {},
   "topics": [
     "advanced-api",
     "reddit-api",
@@ -22,59 +47,39 @@
     "backend-programming"
   ],
   "skillLevel": "advanced",
-  "learningObjectives": [
-    "Work with more complex API endpoints and authentication",
-    "Implement recursive API call strategies for data collection",
-    "Handle API pagination and rate limiting",
-    "Parse complex JSON responses from the Reddit API",
-    "Count and analyze word frequency in API responses",
-    "Create hot articles listings from Reddit data",
-    "Apply recursive functions to traverse API data",
-    "Optimize API request patterns for efficiency",
-    "Process hierarchical data from comment systems",
-    "Implement proper error handling for unreliable API responses"
-  ],
+  "projectStructure": {},
+  "outcomes": {
+    "technicalSkills": [
+      "Work with more complex API endpoints and authentication",
+      "Implement recursive API call strategies for data collection",
+      "Handle API pagination and rate limiting",
+      "Parse complex JSON responses from the Reddit API",
+      "Count and analyze word frequency in API responses",
+      "Create hot articles listings from Reddit data",
+      "Apply recursive functions to traverse API data",
+      "Optimize API request patterns for efficiency",
+      "Process hierarchical data from comment systems",
+      "Implement proper error handling for unreliable API responses"
+    ],
+    "softSkills": [
+      "Problem solving",
+      "Attention to detail"
+    ]
+  },
   "prerequisites": [
     "Completion of 0x15-api module",
     "Strong understanding of Python programming",
-    "Knowledge of HTTP request methods",
-    "Familiarity with JSON data structures",
-    "Basic understanding of API authentication mechanisms",
-    "Experience with the Python requests library"
+    "Knowledge of HTTP request methods"
   ],
   "associatedProjects": {
     "previous": "0x15-api",
     "next": "0x17-web_stack_debugging_3",
-    "related": ["0x0F-load_balancer", "0x18-webstack_monitoring", "0x1A-application_server"]
+    "related": []
   },
-  "resources": [
-    {
-      "name": "Reddit API Documentation",
-      "url": "https://www.reddit.com/dev/api/"
-    },
-    {
-      "name": "Python Requests Library Advanced Usage",
-      "url": "https://requests.readthedocs.io/en/latest/user/advanced/"
-    },
-    {
-      "name": "Working with JSON in Python",
-      "url": "https://docs.python.org/3/library/json.html"
-    },
-    {
-      "name": "API Authentication Methods",
-      "url": "https://swagger.io/docs/specification/authentication/"
-    },
-    {
-      "name": "Recursive Functions in Python",
-      "url": "https://realpython.com/python-thinking-recursively/"
-    },
-    {
-      "name": "API Rate Limiting Best Practices",
-      "url": "https://nordicapis.com/everything-you-need-to-know-about-api-rate-limiting/"
-    },
-    {
-      "name": "PEP 8 - Style Guide for Python Code",
-      "url": "https://www.python.org/dev/peps/pep-0008/"
-    }
-  ]
+  "files": {
+    "authors_file": "",
+    "license_file": "",
+    "readme_file": "",
+    "requirements_file": ""
+  }
 }

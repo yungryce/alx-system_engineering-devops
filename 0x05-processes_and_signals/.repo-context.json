@@ -1,9 +1,34 @@
 {
-  "contextType": "educational",
-  "contextName": "Processes and Signals",
-  "contextDescription": "Introduction to Linux processes, signals, and job control including process management, signal handling, and daemon creation",
-  "mainLanguage": "shell",
-  "supportLanguages": ["bash"],
+  "project_identity": {
+    "name": "0x05-processes_and_signals",
+    "type": "educational",
+    "scope": "Introduction to Linux processes, signals, and job control including process management, signal handling, and daemon creation.",
+    "is_independent": false,
+    "version": "1.0.0",
+    "related_versions": [],
+    "description": "Covers process management, signals, job control, background processes, daemons, and inter-process communication."
+  },
+  "tech_stack": {
+    "primary": ["shell", "bash"],
+    "secondary": [],
+    "key_libraries": []
+  },
+  "skill_manifest": {
+    "technical": [
+      "Process management",
+      "Signal handling",
+      "Job control",
+      "Daemon creation",
+      "Process monitoring"
+    ],
+    "domain": [
+      "system administration",
+      "linux processes",
+      "shell scripting"
+    ]
+  },
+  "components": {},
+  "progression": {},
   "topics": [
     "process-management",
     "signal-handling",
@@ -17,18 +42,25 @@
     "inter-process-communication"
   ],
   "skillLevel": "intermediate",
-  "learningObjectives": [
-    "Understand what a process is and its lifecycle in Linux",
-    "Find and identify running processes using various commands",
-    "Manipulate processes using signals",
-    "Create and manage background processes",
-    "Implement signal handlers in Bash scripts",
-    "Create daemon processes",
-    "Use tools like ps, pgrep, pkill, kill, and trap",
-    "Understand process IDs (PID) and parent PIDs (PPID)",
-    "Monitor and control process execution",
-    "Implement graceful termination of processes"
-  ],
+  "projectStructure": {},
+  "outcomes": {
+    "technicalSkills": [
+      "Understand what a process is and its lifecycle in Linux",
+      "Find and identify running processes using various commands",
+      "Manipulate processes using signals",
+      "Create and manage background processes",
+      "Implement signal handlers in Bash scripts",
+      "Create daemon processes",
+      "Use tools like ps, pgrep, pkill, kill, and trap",
+      "Understand process IDs (PID) and parent PIDs (PPID)",
+      "Monitor and control process execution",
+      "Implement graceful termination of processes"
+    ],
+    "softSkills": [
+      "Problem solving",
+      "Attention to detail"
+    ]
+  },
   "prerequisites": [
     "Completion of 0x00-shell_basics module",
     "Completion of 0x01-shell_permissions module",
@@ -40,24 +72,12 @@
   "associatedProjects": {
     "previous": "0x04-loops_conditions_and_parsing",
     "next": "0x06-regular_expressions",
-    "related": ["0x07-networking_basics", "0x08-networking_basics_2"]
+    "related": []
   },
-  "resources": [
-    {
-      "name": "Linux Processes and Signals",
-      "url": "https://www.tutorialspoint.com/unix/unix-processes.htm"
-    },
-    {
-      "name": "Bash Signal Handling",
-      "url": "https://www.gnu.org/software/bash/manual/html_node/Signals.html"
-    },
-    {
-      "name": "Process Management in Linux",
-      "url": "https://www.digitalocean.com/community/tutorials/process-management-in-linux"
-    },
-    {
-      "name": "ShellCheck",
-      "url": "https://www.shellcheck.net/"
-    }
-  ]
+  "files": {
+    "authors_file": "",
+    "license_file": "",
+    "readme_file": "",
+    "requirements_file": ""
+  }
 }

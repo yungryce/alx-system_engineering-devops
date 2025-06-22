@@ -1,9 +1,34 @@
 {
-  "contextType": "educational",
-  "contextName": "Regular Expressions",
-  "contextDescription": "Introduction to regular expressions (regex) and their application in pattern matching, text processing, and data validation",
-  "mainLanguage": "ruby",
-  "supportLanguages": ["shell"],
+  "project_identity": {
+    "name": "0x06-regular_expressions",
+    "type": "educational",
+    "scope": "Introduction to regular expressions (regex) and their application in pattern matching, text processing, and data validation.",
+    "is_independent": false,
+    "version": "1.0.0",
+    "related_versions": [],
+    "description": "Covers regex syntax, pattern matching, text processing, capture groups, and validation in Ruby and shell."
+  },
+  "tech_stack": {
+    "primary": ["ruby", "shell"],
+    "secondary": [],
+    "key_libraries": []
+  },
+  "skill_manifest": {
+    "technical": [
+      "Regex syntax",
+      "Pattern matching",
+      "Text processing",
+      "Capture groups",
+      "Data validation"
+    ],
+    "domain": [
+      "pattern matching",
+      "text processing",
+      "data validation"
+    ]
+  },
+  "components": {},
+  "progression": {},
   "topics": [
     "regular-expressions",
     "pattern-matching",
@@ -17,18 +42,25 @@
     "character-classes"
   ],
   "skillLevel": "intermediate",
-  "learningObjectives": [
-    "Understand what regular expressions are and their purpose",
-    "Master basic and advanced regex syntax and patterns",
-    "Apply regular expressions to find and extract data from text",
-    "Implement regex using Ruby's scan method",
-    "Create patterns with character classes and quantifiers",
-    "Use anchors to match start and end positions in strings",
-    "Extract specific information using capture groups",
-    "Validate formats such as phone numbers and email addresses",
-    "Debug and test regular expressions",
-    "Optimize regex patterns for performance"
-  ],
+  "projectStructure": {},
+  "outcomes": {
+    "technicalSkills": [
+      "Understand what regular expressions are and their purpose",
+      "Master basic and advanced regex syntax and patterns",
+      "Apply regular expressions to find and extract data from text",
+      "Implement regex using Ruby's scan method",
+      "Create patterns with character classes and quantifiers",
+      "Use anchors to match start and end positions in strings",
+      "Extract specific information using capture groups",
+      "Validate formats such as phone numbers and email addresses",
+      "Debug and test regular expressions",
+      "Optimize regex patterns for performance"
+    ],
+    "softSkills": [
+      "Problem solving",
+      "Attention to detail"
+    ]
+  },
   "prerequisites": [
     "Completion of 0x00-shell_basics module",
     "Completion of 0x01-shell_permissions module",
@@ -41,28 +73,12 @@
   "associatedProjects": {
     "previous": "0x05-processes_and_signals",
     "next": "0x07-networking_basics",
-    "related": ["0x08-networking_basics_2", "0x15-api", "0x16-api_advanced"]
+    "related": []
   },
-  "resources": [
-    {
-      "name": "Regular expressions - basics",
-      "url": "https://www.regular-expressions.info/tutorial.html"
-    },
-    {
-      "name": "Regular expressions - advanced",
-      "url": "https://www.regular-expressions.info/advanced.html"
-    },
-    {
-      "name": "Rubular: a Ruby regular expression editor",
-      "url": "https://rubular.com/"
-    },
-    {
-      "name": "Ruby Regexp Documentation",
-      "url": "https://ruby-doc.org/core/Regexp.html"
-    },
-    {
-      "name": "RegexOne - Learn Regular Expressions",
-      "url": "https://regexone.com/"
-    }
-  ]
+  "files": {
+    "authors_file": "",
+    "license_file": "",
+    "readme_file": "",
+    "requirements_file": ""
+  }
 }

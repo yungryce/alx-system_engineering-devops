@@ -1,9 +1,34 @@
 {
-  "contextType": "educational",
-  "contextName": "Loops, Conditions and Parsing",
-  "contextDescription": "Introduction to advanced shell scripting concepts including loops, conditional statements, file parsing, and SSH key management",
-  "mainLanguage": "shell",
-  "supportLanguages": ["bash"],
+  "project_identity": {
+    "name": "0x04-loops_conditions_and_parsing",
+    "type": "educational",
+    "scope": "Advanced shell scripting: loops, conditions, file parsing, and SSH key management.",
+    "is_independent": false,
+    "version": "1.0.0",
+    "related_versions": [],
+    "description": "Covers loops, conditionals, file parsing, SSH keys, debugging, and log processing in shell scripts."
+  },
+  "tech_stack": {
+    "primary": ["shell", "bash"],
+    "secondary": [],
+    "key_libraries": []
+  },
+  "skill_manifest": {
+    "technical": [
+      "Loops in Bash",
+      "Conditional statements",
+      "File parsing",
+      "SSH key management",
+      "Script debugging"
+    ],
+    "domain": [
+      "shell scripting",
+      "system administration",
+      "automation"
+    ]
+  },
+  "components": {},
+  "progression": {},
   "topics": [
     "loops-in-bash",
     "conditional-statements",
@@ -17,18 +42,25 @@
     "file-tests"
   ],
   "skillLevel": "intermediate",
-  "learningObjectives": [
-    "Create SSH keys for secure authentication",
-    "Use different types of loops in Bash scripts",
-    "Implement conditional statements in shell scripts",
-    "Parse and process files using shell commands",
-    "Debug scripts using shellcheck",
-    "Apply file test operators for validation",
-    "Work with comparison operators in shell",
-    "Use and understand case statements",
-    "Process Apache log files for data extraction",
-    "Build complex scripts with multiple control structures"
-  ],
+  "projectStructure": {},
+  "outcomes": {
+    "technicalSkills": [
+      "Create SSH keys for secure authentication",
+      "Use different types of loops in Bash scripts",
+      "Implement conditional statements in shell scripts",
+      "Parse and process files using shell commands",
+      "Debug scripts using shellcheck",
+      "Apply file test operators for validation",
+      "Work with comparison operators in shell",
+      "Use and understand case statements",
+      "Process Apache log files for data extraction",
+      "Build complex scripts with multiple control structures"
+    ],
+    "softSkills": [
+      "Problem solving",
+      "Attention to detail"
+    ]
+  },
   "prerequisites": [
     "Completion of 0x00-shell_basics module",
     "Completion of 0x01-shell_permissions module",
@@ -39,24 +71,12 @@
   "associatedProjects": {
     "previous": "0x03-shell_variables_expansions",
     "next": "0x05-processes_and_signals",
-    "related": ["0x06-regular_expressions", "0x07-networking_basics"]
+    "related": []
   },
-  "resources": [
-    {
-      "name": "Bash Guide - Loops",
-      "url": "https://tldp.org/LDP/Bash-Beginners-Guide/html/chap_09.html"
-    },
-    {
-      "name": "Advanced Bash-Scripting Guide - Tests",
-      "url": "https://tldp.org/LDP/abs/html/tests.html"
-    },
-    {
-      "name": "SSH Key Generation Guide",
-      "url": "https://www.ssh.com/academy/ssh/keygen"
-    },
-    {
-      "name": "ShellCheck",
-      "url": "https://www.shellcheck.net/"
-    }
-  ]
+  "files": {
+    "authors_file": "",
+    "license_file": "",
+    "readme_file": "",
+    "requirements_file": ""
+  }
 }

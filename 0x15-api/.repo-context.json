@@ -1,9 +1,34 @@
 {
-  "contextType": "educational",
-  "contextName": "API",
-  "contextDescription": "Introduction to APIs (Application Programming Interfaces) and implementation of REST API clients for data retrieval and processing in Python",
-  "mainLanguage": "python",
-  "supportLanguages": ["json", "csv"],
+  "project_identity": {
+    "name": "0x15-api",
+    "type": "educational",
+    "scope": "Introduction to APIs (Application Programming Interfaces) and implementation of REST API clients for data retrieval and processing in Python.",
+    "is_independent": false,
+    "version": "1.0.0",
+    "related_versions": [],
+    "description": "Covers REST APIs, HTTP requests, data processing, JSON/CSV export, and Python scripting."
+  },
+  "tech_stack": {
+    "primary": ["python", "json", "csv"],
+    "secondary": [],
+    "key_libraries": []
+  },
+  "skill_manifest": {
+    "technical": [
+      "REST API consumption",
+      "HTTP requests",
+      "Data processing",
+      "JSON/CSV export",
+      "Python scripting"
+    ],
+    "domain": [
+      "api integration",
+      "data processing",
+      "system administration"
+    ]
+  },
+  "components": {},
+  "progression": {},
   "topics": [
     "api",
     "rest-api",
@@ -22,61 +47,39 @@
     "api-consumption"
   ],
   "skillLevel": "intermediate",
-  "learningObjectives": [
-    "Understand what APIs are and their purpose in software integration",
-    "Learn how to interact with REST APIs programmatically",
-    "Implement Python scripts to retrieve data from external services",
-    "Process JSON responses from API calls",
-    "Export data to different formats (CSV and JSON)",
-    "Apply proper error handling for API requests",
-    "Structure API response data in different formats",
-    "Understand the transition from Bash to Python for system administration tasks",
-    "Use the Python requests library for HTTP requests",
-    "Recognize common REST API patterns and practices"
-  ],
+  "projectStructure": {},
+  "outcomes": {
+    "technicalSkills": [
+      "Understand what APIs are and their purpose in software integration",
+      "Learn how to interact with REST APIs programmatically",
+      "Implement Python scripts to retrieve data from external services",
+      "Process JSON responses from API calls",
+      "Export data to different formats (CSV and JSON)",
+      "Apply proper error handling for API requests",
+      "Structure API response data in different formats",
+      "Understand the transition from Bash to Python for system administration tasks",
+      "Use the Python requests library for HTTP requests",
+      "Recognize common REST API patterns and practices"
+    ],
+    "softSkills": [
+      "Problem solving",
+      "Attention to detail"
+    ]
+  },
   "prerequisites": [
     "Completion of 0x00-shell_basics module",
     "Completion of 0x01-shell_permissions module",
-    "Completion of 0x02-shell_redirections module",
-    "Completion of 0x03-shell_variables_expansions module",
-    "Completion of 0x04-loops_conditions_and_parsing module",
-    "Completion of 0x05-processes_and_signals module",
-    "Basic understanding of Python syntax and libraries",
-    "Familiarity with JSON and CSV data formats"
+    "Completion of 0x02-shell_redirections module"
   ],
   "associatedProjects": {
     "previous": "0x14-mysql",
     "next": "0x16-api_advanced",
-    "related": ["0x06-regular_expressions", "0x09-web_infrastructure_design", "0x18-webstack_monitoring"]
+    "related": []
   },
-  "resources": [
-    {
-      "name": "What is an API?",
-      "url": "https://www.mulesoft.com/resources/api/what-is-an-api"
-    },
-    {
-      "name": "Python Requests Library Documentation",
-      "url": "https://docs.python-requests.org/en/latest/"
-    },
-    {
-      "name": "JSON Placeholder API",
-      "url": "https://jsonplaceholder.typicode.com/"
-    },
-    {
-      "name": "Working with JSON in Python",
-      "url": "https://docs.python.org/3/library/json.html"
-    },
-    {
-      "name": "Working with CSV in Python",
-      "url": "https://docs.python.org/3/library/csv.html"
-    },
-    {
-      "name": "REST API Design Best Practices",
-      "url": "https://restfulapi.net/"
-    },
-    {
-      "name": "PEP 8 - Style Guide for Python Code",
-      "url": "https://www.python.org/dev/peps/pep-0008/"
-    }
-  ]
+  "files": {
+    "authors_file": "",
+    "license_file": "",
+    "readme_file": "",
+    "requirements_file": ""
+  }
 }

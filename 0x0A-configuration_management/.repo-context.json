@@ -1,9 +1,34 @@
 {
-  "contextType": "educational",
-  "contextName": "Configuration Management",
-  "contextDescription": "Introduction to infrastructure automation and configuration management principles using Puppet, focusing on maintaining consistent environments and automated server provisioning",
-  "mainLanguage": "puppet",
-  "supportLanguages": ["ruby", "shell"],
+  "project_identity": {
+    "name": "0x0A-configuration_management",
+    "type": "educational",
+    "scope": "Introduction to infrastructure automation and configuration management principles using Puppet, focusing on maintaining consistent environments and automated server provisioning.",
+    "is_independent": false,
+    "version": "1.0.0",
+    "related_versions": [],
+    "description": "Covers configuration management, infrastructure as code, Puppet, automation, idempotency, and server provisioning."
+  },
+  "tech_stack": {
+    "primary": ["puppet", "ruby", "shell"],
+    "secondary": [],
+    "key_libraries": []
+  },
+  "skill_manifest": {
+    "technical": [
+      "Configuration management",
+      "Infrastructure as code",
+      "Puppet manifests",
+      "Idempotent operations",
+      "Server provisioning"
+    ],
+    "domain": [
+      "automation",
+      "devops",
+      "system administration"
+    ]
+  },
+  "components": {},
+  "progression": {},
   "topics": [
     "configuration-management",
     "infrastructure-as-code",
@@ -19,18 +44,25 @@
     "modules"
   ],
   "skillLevel": "intermediate",
-  "learningObjectives": [
-    "Understand the concept of configuration management",
-    "Create and maintain infrastructure as code",
-    "Write Puppet manifests to automate server configuration",
-    "Apply idempotent operations for consistent environments",
-    "Manage packages, files, and services through Puppet",
-    "Debug configuration management code",
-    "Implement resource ordering and dependencies",
-    "Organize configuration code with Puppet modules",
-    "Create reusable configuration components",
-    "Apply DevOps principles to system administration"
-  ],
+  "projectStructure": {},
+  "outcomes": {
+    "technicalSkills": [
+      "Understand the concept of configuration management",
+      "Create and maintain infrastructure as code",
+      "Write Puppet manifests to automate server configuration",
+      "Apply idempotent operations for consistent environments",
+      "Manage packages, files, and services through Puppet",
+      "Debug configuration management code",
+      "Implement resource ordering and dependencies",
+      "Organize configuration code with Puppet modules",
+      "Create reusable configuration components",
+      "Apply DevOps principles to system administration"
+    ],
+    "softSkills": [
+      "Problem solving",
+      "Attention to detail"
+    ]
+  },
   "prerequisites": [
     "Completion of 0x00-shell_basics module",
     "Completion of 0x08-networking_basics_2 module",
@@ -42,32 +74,12 @@
   "associatedProjects": {
     "previous": "0x09-web_infrastructure_design",
     "next": "0x0B-ssh",
-    "related": ["0x0C-web_server", "0x1A-application_server", "0x1B-web_stack_debugging_4"]
+    "related": []
   },
-  "resources": [
-    {
-      "name": "Puppet Documentation",
-      "url": "https://puppet.com/docs/puppet/latest/puppet_index.html"
-    },
-    {
-      "name": "Introduction to Configuration Management",
-      "url": "https://www.digitalocean.com/community/tutorials/an-introduction-to-configuration-management"
-    },
-    {
-      "name": "Puppet Language Style Guide",
-      "url": "https://puppet.com/docs/puppet/latest/style_guide.html"
-    },
-    {
-      "name": "Infrastructure as Code Principles",
-      "url": "https://www.thoughtworks.com/insights/blog/infrastructure-code-reason-smile"
-    },
-    {
-      "name": "Puppet Resource Types Reference",
-      "url": "https://puppet.com/docs/puppet/latest/type.html"
-    },
-    {
-      "name": "Puppet Manifests Tutorial",
-      "url": "https://www.tutorialspoint.com/puppet/puppet_manifests.htm"
-    }
-  ]
+  "files": {
+    "authors_file": "",
+    "license_file": "",
+    "readme_file": "",
+    "requirements_file": ""
+  }
 }

@@ -1,9 +1,34 @@
 {
-  "contextType": "educational",
-  "contextName": "Firewall",
-  "contextDescription": "Implementation and configuration of firewalls to secure servers, focusing on traffic filtering, port management, and security best practices",
-  "mainLanguage": "shell",
-  "supportLanguages": ["ufw", "iptables"],
+  "project_identity": {
+    "name": "0x13-firewall",
+    "type": "educational",
+    "scope": "Implementation and configuration of firewalls to secure servers, focusing on traffic filtering, port management, and security best practices.",
+    "is_independent": false,
+    "version": "1.0.0",
+    "related_versions": [],
+    "description": "Covers firewall setup, UFW, iptables, port management, traffic filtering, and network security."
+  },
+  "tech_stack": {
+    "primary": ["shell", "ufw", "iptables"],
+    "secondary": [],
+    "key_libraries": []
+  },
+  "skill_manifest": {
+    "technical": [
+      "Firewall configuration",
+      "Traffic filtering",
+      "Port management",
+      "Network security",
+      "Access control"
+    ],
+    "domain": [
+      "system administration",
+      "network security",
+      "firewall management"
+    ]
+  },
+  "components": {},
+  "progression": {},
   "topics": [
     "firewall",
     "ufw",
@@ -22,59 +47,39 @@
     "access-control"
   ],
   "skillLevel": "intermediate",
-  "learningObjectives": [
-    "Understand the purpose and importance of firewalls in system security",
-    "Learn how to install and configure UFW (Uncomplicated Firewall)",
-    "Master traffic filtering techniques for incoming and outgoing connections",
-    "Implement port-based security rules for services like SSH, HTTP, and HTTPS",
-    "Configure port forwarding for network services",
-    "Apply the principle of least privilege to network access",
-    "Develop competency in network security administration",
-    "Set up firewall monitoring and logging",
-    "Troubleshoot firewall configuration issues",
-    "Understand the differences between stateful and stateless firewalls"
-  ],
+  "projectStructure": {},
+  "outcomes": {
+    "technicalSkills": [
+      "Understand the purpose and importance of firewalls in system security",
+      "Learn how to install and configure UFW (Uncomplicated Firewall)",
+      "Master traffic filtering techniques for incoming and outgoing connections",
+      "Implement port-based security rules for services like SSH, HTTP, and HTTPS",
+      "Configure port forwarding for network services",
+      "Apply the principle of least privilege to network access",
+      "Develop competency in network security administration",
+      "Set up firewall monitoring and logging",
+      "Troubleshoot firewall configuration issues",
+      "Understand the differences between stateful and stateless firewalls"
+    ],
+    "softSkills": [
+      "Problem solving",
+      "Attention to detail"
+    ]
+  },
   "prerequisites": [
     "Completion of 0x00-shell_basics module",
     "Completion of 0x01-shell_permissions module",
-    "Completion of 0x02-shell_redirections module",
-    "Completion of 0x03-shell_variables_expansions module",
-    "Completion of 0x04-loops_conditions_and_parsing module",
-    "Completion of 0x05-processes_and_signals module",
-    "Completion of 0x07-networking_basics module",
-    "Completion of 0x08-networking_basics_2 module",
-    "Basic understanding of networking concepts",
-    "Familiarity with Linux system administration"
+    "Completion of 0x02-shell_redirections module"
   ],
   "associatedProjects": {
     "previous": "0x12-web_stack_debugging_2",
     "next": "0x14-mysql",
-    "related": ["0x07-networking_basics", "0x08-networking_basics_2", "0x10-https_ssl"]
+    "related": []
   },
-  "resources": [
-    {
-      "name": "UFW Essentials: Common Firewall Rules and Commands",
-      "url": "https://www.digitalocean.com/community/tutorials/ufw-essentials-common-firewall-rules-and-commands"
-    },
-    {
-      "name": "How To Set Up a Firewall with UFW on Ubuntu",
-      "url": "https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-ufw-on-ubuntu-20-04"
-    },
-    {
-      "name": "An In-Depth Guide to iptables",
-      "url": "https://www.digitalocean.com/community/tutorials/a-deep-dive-into-iptables-and-netfilter-architecture"
-    },
-    {
-      "name": "Linux Firewall Tutorial: IPTables Tables, Chains, Rules Fundamentals",
-      "url": "https://www.thegeekstuff.com/2011/01/iptables-fundamentals/"
-    },
-    {
-      "name": "Port Forwarding with iptables",
-      "url": "https://www.systutorials.com/port-forwarding-using-iptables/"
-    },
-    {
-      "name": "UFW with Port Forwarding",
-      "url": "https://help.ubuntu.com/community/UFW#Port_Forwarding"
-    }
-  ]
+  "files": {
+    "authors_file": "",
+    "license_file": "",
+    "readme_file": "",
+    "requirements_file": ""
+  }
 }

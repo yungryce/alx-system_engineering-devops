@@ -1,9 +1,34 @@
 {
-  "contextType": "educational",
-  "contextName": "Shell Variables and Expansions",
-  "contextDescription": "Introduction to Unix/Linux shell variables, aliases, expansions, and init files for customizing and enhancing shell environments",
-  "mainLanguage": "shell",
-  "supportLanguages": ["bash"],
+  "project_identity": {
+    "name": "0x03-shell_variables_expansions",
+    "type": "educational",
+    "scope": "Introduction to Unix/Linux shell variables, aliases, expansions, and init files for customizing and enhancing shell environments.",
+    "is_independent": false,
+    "version": "1.0.0",
+    "related_versions": [],
+    "description": "Covers shell/environment variables, initialization, expansions, aliases, and command substitution."
+  },
+  "tech_stack": {
+    "primary": ["shell", "bash"],
+    "secondary": [],
+    "key_libraries": []
+  },
+  "skill_manifest": {
+    "technical": [
+      "Shell variables",
+      "Environment variables",
+      "Variable/parameter/arithmetic expansion",
+      "Shell aliases",
+      "Command substitution"
+    ],
+    "domain": [
+      "system administration",
+      "shell scripting",
+      "environment management"
+    ]
+  },
+  "components": {},
+  "progression": {},
   "topics": [
     "shell-variables",
     "environment-variables",
@@ -17,18 +42,25 @@
     "number-base-conversion"
   ],
   "skillLevel": "beginner",
-  "learningObjectives": [
-    "Create and manage shell variables",
-    "Understand the difference between local and global variables",
-    "Work with shell initialization files",
-    "Define and use shell aliases",
-    "Manage the PATH environment variable",
-    "Perform arithmetic operations in shell",
-    "Use string manipulation and parameter expansion",
-    "Convert between different number bases",
-    "Apply variable expansion techniques in scripts",
-    "Implement command substitution for dynamic values"
-  ],
+  "projectStructure": {},
+  "outcomes": {
+    "technicalSkills": [
+      "Create and manage shell variables",
+      "Understand the difference between local and global variables",
+      "Work with shell initialization files",
+      "Define and use shell aliases",
+      "Manage the PATH environment variable",
+      "Perform arithmetic operations in shell",
+      "Use string manipulation and parameter expansion",
+      "Convert between different number bases",
+      "Apply variable expansion techniques in scripts",
+      "Implement command substitution for dynamic values"
+    ],
+    "softSkills": [
+      "Problem solving",
+      "Attention to detail"
+    ]
+  },
   "prerequisites": [
     "Basic terminal/command line knowledge",
     "Completion of 0x00-shell_basics module",
@@ -38,24 +70,12 @@
   "associatedProjects": {
     "previous": "0x02-shell_redirections",
     "next": "0x04-loops_conditions_and_parsing",
-    "related": ["0x05-processes_and_signals"]
+    "related": []
   },
-  "resources": [
-    {
-      "name": "Bash Guide - Variables",
-      "url": "https://mywiki.wooledge.org/BashGuide/Parameters"
-    },
-    {
-      "name": "Advanced Bash-Scripting Guide - Parameter Substitution",
-      "url": "https://tldp.org/LDP/abs/html/parameter-substitution.html"
-    },
-    {
-      "name": "Bash Arithmetic Operations",
-      "url": "https://www.shell-tips.com/bash/math-arithmetic-calculation/"
-    },
-    {
-      "name": "ShellCheck",
-      "url": "https://www.shellcheck.net/"
-    }
-  ]
+  "files": {
+    "authors_file": "",
+    "license_file": "",
+    "readme_file": "",
+    "requirements_file": ""
+  }
 }

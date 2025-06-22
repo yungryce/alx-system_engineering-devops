@@ -1,9 +1,34 @@
 {
-  "contextType": "educational",
-  "contextName": "Shell Basics",
-  "contextDescription": "Introduction to Unix/Linux shell navigation, file manipulation, and basic shell commands for system administration",
-  "mainLanguage": "shell",
-  "supportLanguages": ["bash"],
+  "project_identity": {
+    "name": "0x00-shell_basics",
+    "type": "educational",
+    "scope": "Introduction to Unix/Linux shell navigation, file manipulation, and basic shell commands for system administration.",
+    "is_independent": false,
+    "version": "1.0.0",
+    "related_versions": [],
+    "description": "Covers shell navigation, file/directory manipulation, symbolic links, file types, and basic scripting."
+  },
+  "tech_stack": {
+    "primary": ["shell", "bash"],
+    "secondary": [],
+    "key_libraries": []
+  },
+  "skill_manifest": {
+    "technical": [
+      "Shell navigation",
+      "File and directory manipulation",
+      "Symbolic links",
+      "File type identification",
+      "Basic shell scripting"
+    ],
+    "domain": [
+      "system administration",
+      "linux basics",
+      "shell scripting"
+    ]
+  },
+  "components": {},
+  "progression": {},
   "topics": [
     "shell-navigation",
     "file-manipulation",
@@ -15,36 +40,36 @@
     "magic-files"
   ],
   "skillLevel": "beginner",
-  "learningObjectives": [
-    "Navigate file systems using shell commands",
-    "Manipulate files and directories from the command line",
-    "Display file and directory information in various formats",
-    "Create and manage symbolic links",
-    "Identify file types using appropriate commands",
-    "Create and manage directory structures",
-    "Develop simple shell scripts for file operations"
-  ],
+  "projectStructure": {},
+  "outcomes": {
+    "technicalSkills": [
+      "Navigate file systems using shell commands",
+      "Manipulate files and directories from the command line",
+      "Display file and directory information in various formats",
+      "Create and manage symbolic links",
+      "Identify file types using appropriate commands",
+      "Create and manage directory structures",
+      "Develop simple shell scripts for file operations"
+    ],
+    "softSkills": [
+      "Problem solving",
+      "Attention to detail"
+    ]
+  },
   "prerequisites": [
     "Basic terminal/command line knowledge",
     "Linux/Unix operating system familiarity",
     "Text editor proficiency (vi/vim/emacs)"
   ],
   "associatedProjects": {
+    "previous": "",
     "next": "0x01-shell_permissions",
     "related": ["0x02-shell_redirections", "0x03-shell_variables_expansions"]
   },
-  "resources": [
-    {
-      "name": "Linux Command Line Basics",
-      "url": "https://ubuntu.com/tutorials/command-line-for-beginners"
-    },
-    {
-      "name": "Bash Guide",
-      "url": "https://mywiki.wooledge.org/BashGuide"
-    },
-    {
-      "name": "ShellCheck",
-      "url": "https://www.shellcheck.net/"
-    }
-  ]
+  "files": {
+    "authors_file": "",
+    "license_file": "",
+    "readme_file": "",
+    "requirements_file": ""
+  }
 }

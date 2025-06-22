@@ -1,9 +1,34 @@
 {
-  "contextType": "educational",
-  "contextName": "Shell Permissions",
-  "contextDescription": "Introduction to Unix/Linux file permissions, ownership management, and security concepts for system administration",
-  "mainLanguage": "shell",
-  "supportLanguages": ["bash"],
+  "project_identity": {
+    "name": "0x01-shell_permissions",
+    "type": "educational",
+    "scope": "Introduction to Unix/Linux file permissions, ownership management, and security concepts for system administration.",
+    "is_independent": false,
+    "version": "1.0.0",
+    "related_versions": [],
+    "description": "Covers file permissions, ownership, chmod/chown, symbolic/numeric permissions, and security best practices."
+  },
+  "tech_stack": {
+    "primary": ["shell", "bash"],
+    "secondary": [],
+    "key_libraries": []
+  },
+  "skill_manifest": {
+    "technical": [
+      "File permissions",
+      "Ownership management",
+      "chmod/chown usage",
+      "Symbolic and numeric permissions",
+      "Special permissions (setuid, setgid, sticky bit)"
+    ],
+    "domain": [
+      "system administration",
+      "linux security",
+      "shell scripting"
+    ]
+  },
+  "components": {},
+  "progression": {},
   "topics": [
     "file-permissions",
     "user-ownership",
@@ -17,15 +42,22 @@
     "security-concepts"
   ],
   "skillLevel": "beginner",
-  "learningObjectives": [
-    "Understand file permission concepts in Unix/Linux systems",
-    "Manipulate file permissions using symbolic and numeric notations",
-    "Change file and directory ownership",
-    "Manage group associations for files and directories",
-    "Apply special permissions (setuid, setgid, sticky bit)",
-    "Implement security best practices for file access control",
-    "Develop shell scripts for permission management"
-  ],
+  "projectStructure": {},
+  "outcomes": {
+    "technicalSkills": [
+      "Understand file permission concepts in Unix/Linux systems",
+      "Manipulate file permissions using symbolic and numeric notations",
+      "Change file and directory ownership",
+      "Manage group associations for files and directories",
+      "Apply special permissions (setuid, setgid, sticky bit)",
+      "Implement security best practices for file access control",
+      "Develop shell scripts for permission management"
+    ],
+    "softSkills": [
+      "Problem solving",
+      "Attention to detail"
+    ]
+  },
   "prerequisites": [
     "Basic terminal/command line knowledge",
     "Linux/Unix operating system familiarity",
@@ -36,18 +68,10 @@
     "next": "0x02-shell_redirections",
     "related": ["0x03-shell_variables_expansions"]
   },
-  "resources": [
-    {
-      "name": "Linux File Permissions Explained",
-      "url": "https://www.linux.com/training-tutorials/understanding-linux-file-permissions/"
-    },
-    {
-      "name": "Chmod Calculator",
-      "url": "https://chmod-calculator.com/"
-    },
-    {
-      "name": "ShellCheck",
-      "url": "https://www.shellcheck.net/"
-    }
-  ]
+  "files": {
+    "authors_file": "",
+    "license_file": "",
+    "readme_file": "",
+    "requirements_file": ""
+  }
 }

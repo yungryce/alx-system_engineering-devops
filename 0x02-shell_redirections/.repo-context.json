@@ -1,9 +1,34 @@
 {
-  "contextType": "educational",
-  "contextName": "Shell Redirections and Filters",
-  "contextDescription": "Introduction to Unix/Linux I/O redirections, special characters, and command filters for data manipulation and text processing",
-  "mainLanguage": "shell",
-  "supportLanguages": ["bash"],
+  "project_identity": {
+    "name": "0x02-shell_redirections",
+    "type": "educational",
+    "scope": "Introduction to Unix/Linux I/O redirections, special characters, and command filters for data manipulation and text processing.",
+    "is_independent": false,
+    "version": "1.0.0",
+    "related_versions": [],
+    "description": "Covers standard streams, redirections, pipelines, text processing, and command chaining."
+  },
+  "tech_stack": {
+    "primary": ["shell", "bash"],
+    "secondary": [],
+    "key_libraries": []
+  },
+  "skill_manifest": {
+    "technical": [
+      "I/O redirections",
+      "Standard streams",
+      "Command pipelines",
+      "Text processing",
+      "Pattern matching"
+    ],
+    "domain": [
+      "system administration",
+      "shell scripting",
+      "text processing"
+    ]
+  },
+  "components": {},
+  "progression": {},
   "topics": [
     "io-redirections",
     "standard-streams",
@@ -17,16 +42,23 @@
     "command-chaining"
   ],
   "skillLevel": "beginner",
-  "learningObjectives": [
-    "Understand standard input, output, and error streams in Unix/Linux",
-    "Redirect command output to files and other commands",
-    "Use pipes to chain commands together for complex operations",
-    "Apply text processing filters like grep, sed, awk, and cut",
-    "Sort and filter text data with sort, uniq, and other utilities",
-    "Master special characters and their escaping in shell commands",
-    "Create scripts for automating text processing workflows",
-    "Extract specific data from structured text files"
-  ],
+  "projectStructure": {},
+  "outcomes": {
+    "technicalSkills": [
+      "Understand standard input, output, and error streams in Unix/Linux",
+      "Redirect command output to files and other commands",
+      "Use pipes to chain commands together for complex operations",
+      "Apply text processing filters like grep, sed, awk, and cut",
+      "Sort and filter text data with sort, uniq, and other utilities",
+      "Master special characters and their escaping in shell commands",
+      "Create scripts for automating text processing workflows",
+      "Extract specific data from structured text files"
+    ],
+    "softSkills": [
+      "Problem solving",
+      "Attention to detail"
+    ]
+  },
   "prerequisites": [
     "Basic terminal/command line knowledge",
     "Completion of 0x00-shell_basics module",
@@ -37,22 +69,10 @@
     "next": "0x03-shell_variables_expansions",
     "related": ["0x04-loops_conditions_and_parsing"]
   },
-  "resources": [
-    {
-      "name": "Linux I/O Redirection",
-      "url": "https://tldp.org/LDP/abs/html/io-redirection.html"
-    },
-    {
-      "name": "Grep Command Tutorial",
-      "url": "https://www.geeksforgeeks.org/grep-command-in-unixlinux/"
-    },
-    {
-      "name": "Linux Text Processing Commands",
-      "url": "https://linuxhandbook.com/text-processing-commands/"
-    },
-    {
-      "name": "ShellCheck",
-      "url": "https://www.shellcheck.net/"
-    }
-  ]
+  "files": {
+    "authors_file": "",
+    "license_file": "",
+    "readme_file": "",
+    "requirements_file": ""
+  }
 }
