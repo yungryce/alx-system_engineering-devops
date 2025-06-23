@@ -1,0 +1,28 @@
+ALX Educational License
+
+Copyright (c) 2024 ALX Software Engineering Program
+
+Permission is hereby granted to any person enrolled in the ALX Software Engineering Program 
+to use, copy, modify, and distribute this software and associated documentation files 
+(the "Software") for educational purposes only, subject to the following conditions:
+
+1. The above copyright notice and this permission notice shall be included in all copies 
+   or substantial portions of the Software.
+
+2. The Software is provided "AS IS", without warranty of any kind, express or implied, 
+   including but not limited to the warranties of merchantability, fitness for a 
+   particular purpose and noninfringement.
+
+3. This license is for educational use only. Commercial use, distribution, or sale 
+   of this software is strictly prohibited without explicit written permission from ALX.
+
+4. Students may use this code for learning, assignments, and portfolio projects as part 
+   of their ALX curriculum.
+
+5. Attribution to the original author(s) must be maintained in derivative works.
+
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES 
+OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, 
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+For questions regarding this license, contact: education@alxafrica.com
